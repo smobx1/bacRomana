@@ -4,7 +4,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- 
+ $(function() { // Wait for page to finish loading.
+    if(navigator != undefined && navigator.userAgent != undefined) {
+        user_agent = navigator.userAgent.toLowerCase();
+        if(user_agent.indexOf('android') > -1) { // Is Android.
+            $(document.('#app-nav-bottom')).addClass('android');
+        }
+    }
+});
 
 
 if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery') }

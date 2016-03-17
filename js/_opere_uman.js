@@ -874,7 +874,7 @@ if(document.getElementById("title").innerHTML == "Test"){
 
 
 
-$('<div class="app-nav-bottom"><table class="app-nav-tabel"><tr><td><a href="../index.html"><i class="fa fa-home fa-nav fa-nav-size"></i></a></td><td><a href="../uman.html"><i class="fa fa-book fa-nav fa-nav-size"></i></a></td><td><a href="../uman.html"><i class="fa fa-reply fa-nav fa-nav-size"></i></a></td></tr></table></div>').insertAfter("#continut");
+$('<div class="app-nav-bottom" id="app-nav-bottom"><table class="app-nav-tabel"><tr><td><a href="../index.html"><i class="fa fa-home fa-nav fa-nav-size"></i></a></td><td><a href="../uman.html"><i class="fa fa-book fa-nav fa-nav-size"></i></a></td><td><a href="../uman.html"><i class="fa fa-reply fa-nav fa-nav-size"></i></a></td></tr></table></div>').insertAfter("#continut");
 
 
 
