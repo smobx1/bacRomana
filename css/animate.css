@@ -6,6 +6,9 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2013 Daniel Eden
 */
+.android{
+  display: none !important;
+}
 .someclass {
     color: red;
 }
