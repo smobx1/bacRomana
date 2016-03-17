@@ -440,6 +440,13 @@ NO MORE TABLES!! ;)
 	background-color:rgba(255, 166, 85, 1);
 	color:#fff;
 }
+.umanButon:active{
+  background-color:none;
+}
+.realButon:active{
+  background-color:#fff;
+  color:#ffa655;
+}
 
 .navbar-default{ /* culoare header nav */
 	background-color:rgba(240,240,240,.3) !important;

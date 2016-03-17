@@ -6,16 +6,11 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2013 Daniel Eden
 */
-.umanButon:active{
-  background-color:none;
-}
+
 .h1_home{
   color:rgba(225, 232, 231,1);
 }
-.realButon:active{
-  background-color:#fff;
-  color:#ffa655;
-}
+
 .android{
   display: none !important;
 }
