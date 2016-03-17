@@ -4,13 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- function onDeviceReady() {
-     if (parseFloat(window.device.version) === 7.0) {
-           document.body.style.marginTop = "20px";
-     }
- }
-
- document.addEventListener('deviceready', onDeviceReady, false);
+ 
 
 
 if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery') }
