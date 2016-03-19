@@ -2,7 +2,14 @@
 
 /* Header Navigation */
 /*culoare background index #ffa655*/
-
+.navbar-default{
+	position: absolute;
+	background-color:#000;
+	opacity: 1 !important;
+}
+#lista{
+	margin-top:70px !important;
+}
 #top-nav{
 	border-bottom: 1px solid #e1e6dd;
 	background: #FFF;
@@ -449,7 +456,8 @@ NO MORE TABLES!! ;)
 
 
 .navbar-default{ /* culoare header nav */
-	background-color:rgba(240,240,240,.3) !important;
+	background-color:rgba(240,240,240,1) !important;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fa-size{
