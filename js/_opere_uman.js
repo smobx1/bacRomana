@@ -944,4 +944,4 @@ $('p').wrapInTag({"words" : [
             "Volumul III "
 ]});
 
-document.getElementById("poweredBy").innerHTML = "Powered by";
+document.getElementById("poweredBy").innerHTML = "Powered by<br>DesignRoom.ro";
