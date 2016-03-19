@@ -493,6 +493,15 @@ NO MORE TABLES!! ;)
 .test_uman{
 	padding:20px 20px;
 }
+.umanButon:active{
+	background-color:none;
+	transition: 0s;
+}
+.realButon:active{
+	background-color:rgba(0,0,0,.15);
+	color:#000;
+	transition: 0s;
+}
 .test_real{
 	padding:20px 24px;
 }
@@ -562,6 +571,7 @@ NO MORE TABLES!! ;)
 	background-color:#333;
 	opacity:1;
 	z-index: 999;
+	display: none; /* pana fixez sa nu mai apara pe android */
 }
 .fa-nav-size{
 	font-size:30px;
@@ -596,7 +606,7 @@ NO MORE TABLES!! ;)
 }
 .intro-header{
 	background-color:#ffa655;
-	padding-top:25px;
+	padding-top:30px;
 }
 .col-xs-12{
 	margin:0 !important;
@@ -607,4 +617,16 @@ NO MORE TABLES!! ;)
 }
 body{
 	overflow-x: hidden !important;
+}
+@media(max-width:350px){
+	.h1_home{
+		font-size:40px;
+		margin-top:20px;
+	}
+	.logoIndex{
+		height: 150px;
+	}
+	.intro-header{
+		padding-top:20px;
+	}
 }
