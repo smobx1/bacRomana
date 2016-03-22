@@ -1,12 +1,6 @@
 ////////////////////////////////////////////////// EPIC
 /*
 UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN UMAN
-
-
-
-
-
-
 */
 // mihnea SI IOANA
 var harap = {
@@ -884,7 +878,6 @@ if(document.getElementById("title").innerHTML == "Test"){
  continut.innerHTML += "<p class='p6'>"+laTiganci.parte_6+"</p>";
  continut.innerHTML += "<p class='p7'>"+laTiganci.parte_7+"</p>";
 }
-
 
 
 
