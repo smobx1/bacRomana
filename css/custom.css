@@ -631,6 +631,15 @@ NO MORE TABLES!! ;)
 }
 body{
 	overflow-x: hidden !important;
+
+	/* Keyword values */
+	scroll-behavior: auto;
+	scroll-behavior: smooth;
+
+/* Global values */
+	scroll-behavior: inherit;
+	scroll-behavior: initial;
+	scroll-behavior: unset;
 }
 @media(max-width:350px){
 	.h1_home{
