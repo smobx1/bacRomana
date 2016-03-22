@@ -409,30 +409,30 @@ var dacia = {
 // ioana
 var iluminismul = {
   nume:"Iluminismul",
-  autor:"-",
+  autor:"",
   cat:"",
   an:"1970",
   parte_1:" 1. DEFINIREA CURENTULUI<br>-curent cultural și ideologic apărut în Franța în sec XVIII <br>-promovează rațiunea și știința, având ca scop emanciparea popoarelor prin cultură <br>-din punct de vedere istoric a însemnat dezvoltarea burgheziei, dezvoltarea științei, creerea condițiilor pentru izbugnirea revoluției din Franța <br>-curentul ideologic a avut caracter antifeudal și anticlerical ",
   parte_2:" 2. TRĂSĂTURILE FILOSOFICE LUMINILOR ȘI OMULUI <br>-filosofia luminilor: accentul pe idealul uman, iar lumina a semificat rațiunea și cunoașterea adevărului <br>-omul luminilor →filosoful <br> -omul luminilor : are încredere în puterea gândirii și a rațiunii, dorește să alunge prejudecățile și conformismul, nu acceptă argumentul tradiției și al autorității, este sensibil, imaginativ, sociabil, adaptat vremii, se află în slujba celorlalți, își asumă riscuri și pericole, 'Nimic din cea ce este omenesc, nu-i este străin'. <br>-în Europa, aceste trăsături ale filosofiei și omului luminilor s-au concretizat într-o mișcare ce a influențat întreagă literatură europeană: ȘTURM UND DRÂNG → mișcarea apărută în Germania; reprezentant: G.E. Leasing → face trecerea de la Iluminismn la Romantism prin Pre-romantism → curent literar de tranziție pregătește mișcarea romantică prin reacția față de modul rațiunii, căruia îi opuneau elogiul sentimental și fantezist. ",
   parte_3:" 3. a) CONTEXTUL ISTORIC <br>-1691-Transilvania este cunoscută ca principat autonom în Imperul Habsburgic.  <br>-1698-1701 -se realizează unirea cu Romă și constituie Biserica Greco-Catolică. <br>-1791 -cărturarii ardeleni înaintează curții de la Viena cu numele Supplex Libellux Valacroux. <br>b) ILUMINISMUL ROMÂNESC <br>-are coloratură națională <br>-reface legăturile cu romanitatea educațională <br>-a fost reprezentat de intelectualii din Transilvania care au format o mișcare politică și culturală cunoscute prin numele de școală ardeleană <br>c) ȘCOALA ARDELEANA<br> 1) Social: <br>-caracter iluminist, care a urmărit eumanciparea popurul în special țăranii <br>2) Cultural:<br>-activitatea reprezentativă a școlii ardelene, studiile de istorie, linguistice și filozofice <br>-în domeniul linguisticii au pus problemă adoptării alfabetului latin în defavoarea celui chirilic. ",
-  parte_4:"",
-  parte_5:"4. REPREZENTANȚII ȘCOLII ARDELENE <br>Samuel Micu<br>-face studiile la școala mănăstirii din Blaj <br>-profesorul de liceu la Blaj <br>-operă complexă în teologie, filozofie și istorie <br>-redactează prima gramatică <br>-traduce Biblia <br>-scrie o carte despre istoria Românilor, considerată operă cu cea mai mare importantă <br><br>Gheorghe Șincai <br>-studiază la Târgu Mureș și Cluj și se specializează în limbă graca, latină și germană <br>-profesor al școlii mănăstirii din Blaj <br>-s-a călugărit sub numele de Gabriel <br>-doctorat în filozofie și teologie <br>-îl cunoaște la Viena pe Samuel Micu <br>-a contribuit la dezvoltarea învățământului, a înființat peste 300 de școli <br>-opera cea mai importantă este ‘Cronică Românilor și a mai multor neamuri’.",
+  parte_4:"4. REPREZENTANȚII ȘCOLII ARDELENE <br>Samuel Micu<br>-face studiile la școala mănăstirii din Blaj <br>-profesorul de liceu la Blaj <br>-operă complexă în teologie, filozofie și istorie <br>-redactează prima gramatică <br>-traduce Biblia <br>-scrie o carte despre istoria Românilor, considerată operă cu cea mai mare importantă <br><br>Gheorghe Șincai <br>-studiază la Târgu Mureș și Cluj și se specializează în limbă graca, latină și germană <br>-profesor al școlii mănăstirii din Blaj <br>-s-a călugărit sub numele de Gabriel <br>-doctorat în filozofie și teologie <br>-îl cunoaște la Viena pe Samuel Micu <br>-a contribuit la dezvoltarea învățământului, a înființat peste 300 de școli <br>-opera cea mai importantă este ‘Cronică Românilor și a mai multor neamuri’.",
+  parte_5:"",
   parte_6:"",
   parte_7:""
 };
 // ioana
 var pasoptismul = {
 	  nume:"Pasoptismul",
-	  autor:"-",
+	  autor:"",
 	  cat:"",
 	  an:"1970",
 	  parte_1:" 1) CONTEXTUL ISTORIC <br>-marcat de revoluția de la 1848 <br>-revoluția a fost determinată de revolta împotriva stăpânirii habsburgice și a protecoratului rus ",
 	  parte_2:"MOLDOVA <br>-28 martie 1848<br>-se citește in Adunarea de la Iași 'Petitia proclamației de la Iași' redactată de Kogălniceanu, Al. I. Cuza, V. Alecsandri și înaintată de domnitorul Sturdza TRANSILVANIA <br>-3-5 mai 1848<br>-în Adunarea națiunii de la Blaj se citește 'Proclamatia de la Blaj' întocmită de Simion Barnuțiu, George Barnuțiu, Avram Iancu. <br>-cererea lor e să se unească ȚARA ROMÂNEASCĂ <br>-9 iunie 1848<br>-'Proclamatia de la Blaj' redactată de N. Bălcescu, I.C. Brătianu, I.H.Rădulescu <br>-toate cele trei acte au fost înfrânte <br>-revoluționarii aveau egalitate în drepturi, accestul tuturor la învățământ, pământ țăranilor, recăpătarea autonomiei, țara să fie condusă de un domn împreună cu Adunarea nationala din care să facă parte reprezentanții burgheziei. <br>-a conturat definitiv idealurile românilor: unirea și independența ",
 	  parte_3:" PETRU MAIOR <br>-studii telogice <br>-călugărit cu numele de Pavel <br>-profesor la Blaj —> iese din ordinul monarhului și revine protopop la Reghi →operă: impresionează prin amploare și diversitate în teologie, istorie și folosofie <br>-puterea educației în spirit iluminist <br>-istoria pentru începuturile românilor din Dacia. VASILE ALECSANDRI <br>-personalitatea reprezentativă a perioadei pașoptiste <br>-a avut rol în plan cultural    cel  literaturii ",
-    parte_4:"",
-	  parte_5:"PAȘOPTISMUL ROMÂNESC <br>-marchează o perioadă de dezvoltare în plan cultural si artistic <br>-apăr școlile  <br>-se înființează teatre: Teatrul național de la Iași<br>-se editează primele reviste, București (curierul românesc), Brașov (Gazetă de Transilvania), Iași(Albină românească). LITERATURĂ PAȘOPTISTA <br>-idealurile de libertate socială și unitate națională au favorizat abordarea romantismului <br>Embrionul mișcării culturale pașoptiste este revistă Dacia Literară: <br>-a apărut pe 30 ianuarie 1840 <br>-apăr doar 3 numere <br>-cuprinde în primul număr un articol-program semnat de Mihai Kogălniceanu 'Introductie'. <br>-este prima revistă care se va adresă tuturor provincialior <br>-trasează noile direcții în literatură română ",
-	  parte_6:"1) Poezia Epocii de la 1848 <br>-reprezintă începutul poeziei moderne române <br>-speciile predominante sunt: odă și cântecul <br>Temele abordate:<br>-ideea națională <br>-filosoful <br>-religiosul <br>-sentimentalul <br>-cetățeanul ",
-	  parte_7:" 2) Proză epocii de la 1848 <br>-primele încercări de proză descriptivă, istorică și satirică <br>-temă istoriei este prelucrată în aproape toate speciile: nuvelă istorică (C. Negruzzi), fragmente istorică (C. Negruzzi) <br>-apăr stilurile redactării de călătorie<br>-memorial de călătorie ( G. Alexandrescu). <br>-satiră se manifestă în fabule (G. Alexandrescu) ‘Câinele și cățelul’ "
+	  parte_4:"PAȘOPTISMUL ROMÂNESC <br>-marchează o perioadă de dezvoltare în plan cultural si artistic <br>-apăr școlile  <br>-se înființează teatre: Teatrul național de la Iași<br>-se editează primele reviste, București (curierul românesc), Brașov (Gazetă de Transilvania), Iași(Albină românească). LITERATURĂ PAȘOPTISTA <br>-idealurile de libertate socială și unitate națională au favorizat abordarea romantismului <br>Embrionul mișcării culturale pașoptiste este revistă Dacia Literară: <br>-a apărut pe 30 ianuarie 1840 <br>-apăr doar 3 numere <br>-cuprinde în primul număr un articol-program semnat de Mihai Kogălniceanu 'Introductie'. <br>-este prima revistă care se va adresă tuturor provincialior <br>-trasează noile direcții în literatură română ",
+	  parte_5:"1) Poezia Epocii de la 1848 <br>-reprezintă începutul poeziei moderne române <br>-speciile predominante sunt: odă și cântecul <br>Temele abordate:<br>-ideea națională <br>-filosoful <br>-religiosul <br>-sentimentalul <br>-cetățeanul ",
+	  parte_6:" 2) Proză epocii de la 1848 <br>-primele încercări de proză descriptivă, istorică și satirică <br>-temă istoriei este prelucrată în aproape toate speciile: nuvelă istorică (C. Negruzzi), fragmente istorică (C. Negruzzi) <br>-apăr stilurile redactării de călătorie<br>-memorial de călătorie ( G. Alexandrescu). <br>-satiră se manifestă în fabule (G. Alexandrescu) ‘Câinele și cățelul’ ",
+    parte_7:""
 };
 
 //////////////////////////////////////////////////////////////////////////////
@@ -807,7 +807,7 @@ if(document.getElementById("title").innerHTML == "LaTiganci"){
 if(document.getElementById("title").innerHTML == "Iluminismul"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+iluminismul.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+iluminismul.autor+"</p></p>";
+  // continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+iluminismul.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+iluminismul.cat+"<br>"+iluminismul.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+iluminismul.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+iluminismul.parte_2+"</p>";
@@ -821,7 +821,7 @@ if(document.getElementById("title").innerHTML == "Iluminismul"){
 if(document.getElementById("title").innerHTML == "Pasoptismul"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+pasoptismul.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+pasoptismul.autor+"</p></p>";
+  // continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+pasoptismul.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+pasoptismul.cat+"<br>"+pasoptismul.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+pasoptismul.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+pasoptismul.parte_2+"</p>";
@@ -884,6 +884,7 @@ if(document.getElementById("title").innerHTML == "Test"){
  continut.innerHTML += "<p class='p6'>"+laTiganci.parte_6+"</p>";
  continut.innerHTML += "<p class='p7'>"+laTiganci.parte_7+"</p>";
 }
+
 
 
 
