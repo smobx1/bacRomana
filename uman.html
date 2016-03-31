@@ -35,6 +35,7 @@
  <link rel="stylesheet" href="css/magnific-popup.css">
 
  <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+ <!-- <script type="text/javascript" src="cordova.js"></script> -->
 </head>
 
 <body id="home">
@@ -57,7 +58,7 @@
          <span class="icon-bar"></span>
        </button>
        <img src="img/logo.png" class="logoHeader"><a class="navbar-brand" href="index.html">Bac Romana</a>
-       
+
      </div>
 
      <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
@@ -80,8 +81,8 @@
 
 
 <!--  <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> -->
-    
- 
+
+
 
 
 
@@ -269,5 +270,45 @@
  <!-- Magnific Popup core JS file -->
  <script src="js/jquery.magnific-popup.js"></script>
 </body>
+<!--
+<script>
+        var enabledAdMob = true; // easily enable/disable AdMob
+        var admobid = {};
+        if( /(android)/i.test(navigator.userAgent) )
+        {
+            admobid = { // for Android
+                banner: 'ca-app-pub-xxx/xxx', // or DFP format "/6253334/dfp_example_ad"
+                interstitial: 'ca-app-pub-xxx/yyy'
+            };
+        }
+        else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent))
+        {
+            admobid = { // for iOS
+                banner: 'ca-app-pub-xxx/zzz', // or DFP format "/6253334/dfp_example_ad"
+                interstitial: 'ca-app-pub-xxx/kkk'
+            };
+        }
+        else
+        {
+            admobid = { // for Windows Phone
+                banner: 'ca-app-pub-xxx/zzz', // or DFP format "/6253334/dfp_example_ad"
+                interstitial: 'ca-app-pub-xxx/kkk'
+            };
+        }
+
+        function initApp()
+        {
+            if (enabledAdMob)
+            {
+                AdMob.createBanner({
+                    adId: admobid.banner,
+                    position: AdMob.AD_POSITION.BOTTOM_CENTER,
+                    autoShow: true
+                });
+            }
+        }
+
+        document.addEventListener('deviceready', initApp, false);
+    </script> -->
 
 </html>
