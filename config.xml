@@ -11,6 +11,7 @@
 
     <gap:plugin name="cordova-plugin-admob" source="npm" />
     <plugin name="cordova-plugin-admob" spec="2.16.1" />
+    <preference name="phonegap-version" value="4.0.0" />
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <name>Bac cu Brio</name>
