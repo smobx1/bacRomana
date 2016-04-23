@@ -15,7 +15,6 @@
    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
    <meta name="author" content="">
 
-  <script type="text/javascript" src="cordova.js"></script>
 
    <title>Bac cu Brio Romana - Comentarii</title>
 
@@ -97,6 +96,7 @@ body{
  });
 
  </script>
+ <script type="text/javascript" src="admob_simple.js"></script>
  <!-- Smoothscroll -->
  <script type="text/javascript" src="js/jquery.corner.js"></script>
  <script src="js/wow.min.js"></script>
@@ -108,39 +108,4 @@ body{
  <!-- Magnific Popup core JS file -->
  <script src="js/jquery.magnific-popup.js"></script>
 </body>
-
-<script>
-var admobid = {};
-if( /(android)/i.test(navigator.userAgent) ) {
-    admobid = { // for Android
-        banner: 'ca-app-pub-2789022727093400/7321535577',
-        interstitial: 'ca-app-pub-2789022727093400/7321535577'
-    };
-} else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
-    admobid = { // for iOS
-        banner: 'ca-app-pub-2789022727093400/7090119175',
-        interstitial: 'ca-app-pub-2789022727093400/7090119175'
-    };
-}
-// else {
-//     admobid = { // for Windows Phone
-//         banner: 'ca-app-pub-6869992474017983/8878394753',
-//         interstitial: 'ca-app-pub-6869992474017983/1355127956'
-//     };
-// }
-
-function initApp() {
-    if (AdMob) {
-        AdMob.createBanner({
-            adId : admobid.banner,
-            position : AdMob.AD_POSITION.BOTTOM_CENTER,
-            autoShow : true
-        });
-    }
-}
-
-document.addEventListener('deviceready', initApp, false);
-
-
-
 </html>
