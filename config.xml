@@ -8,9 +8,8 @@
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
-    <plugin name="com.admob.google" spec="4.0.8" source="pgb" />
 
-    <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
+    <gap:plugin name="cordova-plugin-admob" source="npm" />
 
     <name>Bac cu Brio</name>
 
