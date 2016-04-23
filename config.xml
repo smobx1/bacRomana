@@ -10,7 +10,7 @@
 
 
     <gap:plugin name="cordova-plugin-admob" source="npm" />
-    <plugin name="cordova-plugin-admob" spec="2.16.1" />
+    <!-- <plugin name="cordova-plugin-admob" spec="2.16.1" /> -->
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <name>Bac cu Brio</name>
