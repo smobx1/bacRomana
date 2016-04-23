@@ -11,7 +11,7 @@
 
     <gap:plugin name="cordova-plugin-admob" source="npm" />
     <!-- <plugin name="cordova-plugin-admob" spec="2.16.1"/> --> <!-- merge ADMOB pe iOS si tot, fara el. -->
-    <gap:plugin name="com.admob.google" source="plugins.cordova.io" version="2.0.14"/>
+    <gap:plugin name="cordova-admob" source="npm"/>
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <name>Bac cu Brio</name>
