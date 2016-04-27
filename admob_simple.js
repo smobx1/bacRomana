@@ -44,10 +44,10 @@ function initApp() {
   }, 10000);
 
 }
-setInterval(function() {
+// setInterval(function() {
       if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
           document.addEventListener('deviceready', initApp, false);
       } else {
           initApp();
       }
-}
+// }, 10000);
