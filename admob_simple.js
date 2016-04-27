@@ -18,25 +18,31 @@ if( /(android)/i.test(navigator.userAgent) ) {
   };
 }
 
+
+
 function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
 
-  // this will create a banner on startup
-  AdMob.createBanner( {
-    adId: admobid.banner,
-    position: AdMob.AD_POSITION.BOTTOM_CENTER,
-    // isTesting: true, // TODO: remove this line when release
-    overlap: false,
-    offsetTopBar: false,
-    bgColor: 'black'
-  } );
 
-  // this will load a full screen ad on startup
-  AdMob.prepareInterstitial({
-    adId: admobid.interstitial,
-    // isTesting: true, // TODO: remove this line when release
-    autoShow: true
-  });
+  setInterval(function() {
+        // this will create a banner on startup
+        AdMob.createBanner( {
+          adId: admobid.banner,
+          position: AdMob.AD_POSITION.BOTTOM_CENTER,
+          // isTesting: true, // TODO: remove this line when release
+          overlap: false,
+          offsetTopBar: false,
+          bgColor: 'black'
+        } );
+
+        // this will load a full screen ad on startup
+        AdMob.prepareInterstitial({
+          adId: admobid.interstitial,
+          // isTesting: true, // TODO: remove this line when release
+          autoShow: false
+        });
+  }, 10000);
+
 }
 
 if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
