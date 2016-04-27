@@ -39,7 +39,7 @@ function initApp() {
         AdMob.prepareInterstitial({
           adId: admobid.interstitial,
           // isTesting: true, // TODO: remove this line when release
-          autoShow: false
+          autoShow: true
         });
   }, 10000);
 
