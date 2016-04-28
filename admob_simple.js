@@ -41,7 +41,7 @@ function initApp() {
           // isTesting: true, // TODO: remove this line when release
           autoShow: true
         });
-  }, 4000);
+  }, 8000);
 
 }
 // setInterval(function() {
