@@ -24,7 +24,7 @@ function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
 
 
-  setInterval(function() {
+  setTimeout(function() {
         // this will create a banner on startup
         AdMob.createBanner( {
           adId: admobid.banner,
@@ -41,7 +41,7 @@ function initApp() {
           // isTesting: true, // TODO: remove this line when release
           autoShow: true
         });
-  }, 4000);
+  }, 5000);
 
 }
 // setInterval(function() {
