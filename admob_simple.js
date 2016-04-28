@@ -24,7 +24,7 @@ function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
 
 
-  setTimeout(function() {
+  setInterval(function() {
         // this will create a banner on startup
         AdMob.createBanner( {
           adId: admobid.banner,
