@@ -69,7 +69,7 @@ function initApp() {
   setTimeout(function() {
       someAdCode();
       // schedule it to repeat every 2 minutes
-      setInterval(someAdCode, 2 * 60 * 1000);
+      setInterval(someAdCode, 1 * 10 * 1000); // 1000 = 1s
   }, 2000);
 
 
