@@ -62,6 +62,7 @@ function initApp() {
             // isTesting: true, // TODO: remove this line when release
             autoShow: true
           });
+          AdMob.showInterstitial(); // test
   }
 
   // start it in 2 seconds
