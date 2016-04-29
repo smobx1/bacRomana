@@ -24,24 +24,56 @@ function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
 
 
-  setTimeout(function() {
-        // this will create a banner on startup
-        AdMob.createBanner( {
-          adId: admobid.banner,
-          position: AdMob.AD_POSITION.BOTTOM_CENTER,
-          // isTesting: true, // TODO: remove this line when release
-          overlap: false,
-          offsetTopBar: false,
-          bgColor: 'black'
-        } );
+  // setTimeout(function() {
+  //       // this will create a banner on startup
+  //       AdMob.createBanner( {
+  //         adId: admobid.banner,
+  //         position: AdMob.AD_POSITION.BOTTOM_CENTER,
+  //         // isTesting: true, // TODO: remove this line when release
+  //         overlap: false,
+  //         offsetTopBar: false,
+  //         bgColor: 'black'
+  //       } );
+  //
+  //       // this will load a full screen ad on startup
+  //       AdMob.prepareInterstitial({
+  //         adId: admobid.interstitial,
+  //         // isTesting: true, // TODO: remove this line when release
+  //         autoShow: true
+  //       });
+  // }, 2000);
 
-        // this will load a full screen ad on startup
-        AdMob.prepareInterstitial({
-          adId: admobid.interstitial,
-          // isTesting: true, // TODO: remove this line when release
-          autoShow: true
-        });
-  }, 5000);
+
+  function someAdCode() {
+    // put the code here that you want to repeat
+    // this will create a banner on startup
+          AdMob.createBanner( {
+            adId: admobid.banner,
+            position: AdMob.AD_POSITION.BOTTOM_CENTER,
+            // isTesting: true, // TODO: remove this line when release
+            overlap: false,
+            offsetTopBar: false,
+            bgColor: 'black'
+          } );
+
+          // this will load a full screen ad on startup
+          AdMob.prepareInterstitial({
+            adId: admobid.interstitial,
+            // isTesting: true, // TODO: remove this line when release
+            autoShow: true
+          });
+  }
+
+  // start it in 2 seconds
+  setTimeout(function() {
+      someAdCode();
+      // schedule it to repeat every 2 minutes
+      setInterval(someAdCode, 2 * 60 * 1000);
+  }, 2000);
+
+
+
+
 
 }
 // setInterval(function() {
