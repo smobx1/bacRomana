@@ -65,9 +65,11 @@ function someAdCode() {
   // start it in 2 seconds
   setTimeout(function() {
       someAdCode();
-      // schedule it to repeat every 2 minutes
-      setInterval(someAdCode, 1 * 10 * 1000); // 1000 = 1s
+
   }, 2000);
+
+  // schedule it to repeat every 2 minutes
+  setInterval(someAdCode, 1 * 30 * 1000); // 1000 = 1s
 
 
 
