@@ -43,9 +43,6 @@ function initApp() {
   //       });
   // }, 2000);
 
-
-  function someAdCode() {
-    // put the code here that you want to repeat
     // this will create a banner on startup
           AdMob.createBanner( {
             adId: admobid.banner,
@@ -56,14 +53,14 @@ function initApp() {
             bgColor: 'black'
           } );
 
+function someAdCode() {
           // this will load a full screen ad on startup
           AdMob.prepareInterstitial({
             adId: admobid.interstitial,
             // isTesting: true, // TODO: remove this line when release
-            autoShow: false
+            autoShow: true
           });
-          AdMob.showInterstitial(); // test
-  }
+}
 
   // start it in 2 seconds
   setTimeout(function() {
