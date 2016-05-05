@@ -5,15 +5,19 @@
         versionCode = "14"
         version     = "2.0.0" >
 
-    <!-- <preference name="android-build-tool" value="gradle" /> -->
 
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
 
-    <gap:plugin name="cordova-plugin-admob" source="npm" />
-    <!-- <plugin name="cordova-plugin-admob" spec="2.16.1"/> --> <!-- merge ADMOB pe iOS si tot, fara el. -->
-    <!-- <gap:plugin name="cordova-admob" source="npm"/> -->
+    <!-- start plugin -->
+    <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
+
+    <preference name="android-build-tool" value="gradle" />
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+
+    <!-- end plugin -->
+
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <name>Bac cu Brio</name>
