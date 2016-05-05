@@ -11,9 +11,9 @@
     <preference name="DisallowOverscroll" value="true" />
 
 
-    <gap:plugin name="cordova-plugin-admob" source="npm" />
+    <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
     <!-- <plugin name="cordova-plugin-admob" spec="2.16.1"/> --> <!-- merge ADMOB pe iOS si tot, fara el. -->
-    <gap:plugin name="cordova-admob" source="npm"/>
+    <!-- <gap:plugin name="cordova-admob" source="npm"/> -->
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <name>Bac cu Brio</name>
