@@ -6,7 +6,46 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2013 Daniel Eden
 */
+.picaTabel{
+  width:90%;
+  /*background-color:blue;*/
+  margin:auto;
+  font-size:10px;
+  /*border:1px solid black;*/
+}
+.c1{
+  width:150px;
+  /*border:1px solid black;*/
+}
+.c1 div{
+  background-color:rgba(255, 166, 85,1);
+  height:10px;
+}
+.r1{width:95%;}
+.r2{width:80%;}
+.r3{width:70%;}
+.r4{width:50%;}
+.r5{width:44%;}
+.r6{width:33%;}
+.r7{width:15%;}
+.r8{width:13%;}
+.r9{width:4%;}
+.r10{width:3%;}
+.r11{width:1%;}
+.r12{width:1%;}
+.r13{width:1%;}
+.r14{width:1%;}
+.r15{width:1%;}
+.r16{width:1%;}
+.r17{width:1%;}
 
+
+
+
+
+
+
+/* END TABEL COTE */
 .h1_home{
   color:rgba(225, 232, 231,1);
 }
