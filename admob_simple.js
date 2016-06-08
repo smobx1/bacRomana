@@ -3,12 +3,12 @@ var admobid = {};
 // TODO: replace the following ad units with your own
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
-    // banner: 'ca-app-pub-6869992474017983/9375997553',
+    banner: 'ca-app-pub-2785420618056516/9510653987',
     interstitial: 'ca-app-pub-2785420618056516/7921769986'
   };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
   admobid = { // for iOS
-    // banner: 'ca-app-pub-6869992474017983/4806197152',
+    banner: 'ca-app-pub-2785420618056516/8033920782',
     interstitial: 'ca-app-pub-2785420618056516/1875236383'
   };
 } else {
