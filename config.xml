@@ -3,6 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
         versionCode = "53"
+        android-versionCode="104280" 
         version     = "5.1.3" >
 
 
