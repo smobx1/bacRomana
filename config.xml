@@ -4,13 +4,13 @@
         id          = "romana.bacromana.example"
         versionCode = "56"
         version     = "5.6.7"
-        android-versionCode="104280" 
         >
 
 
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
-
+    
+    <!-- android-versionCode="104280"  -->
 
     <!-- start plugin -->
     <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
