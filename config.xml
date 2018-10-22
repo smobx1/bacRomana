@@ -35,7 +35,10 @@
         DesignRoom
     </author>
     <!-- -->
-   
+    
+
+    <splash src="img/splashScreen.png" />
+
 
 <!-- ANDROID -->
 <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
