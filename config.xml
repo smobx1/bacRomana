@@ -36,26 +36,19 @@
         DesignRoom
     </author>    
 
-    <platform name="ios"> 
-        <splash src="img/screen/Default@2x~iphone~anyany.png"/>
-        <splash src="img/screen/Default@2x~iphone~comany.png"/>
-        <splash src="img/screen/Default@2x~iphone~comcom.png"/>
-        <splash src="img/screen/Default@3x~iphone~anyany.png"/>
-        <splash src="img/screen/Default@3x~iphone~anycom.png"/>
-        <splash src="img/screen/Default@3x~iphone~comany.png"/>
-        <splash src="img/screen/Default@2x~ipad~anyany.png"/>
-        <splash src="img/screen/Default@2x~ipad~comany.png"/>   
-    </platform>
+    
+         <splash src="img/screen/ios/Default@2x~universal~anyany.png"/>
 
     <!-- ANDROID -->
-    <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
-
+    
+        <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
+        <splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
+        <splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
+        <splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
+        <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
+        <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
+        <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
+    
     
 
     <splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" />
