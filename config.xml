@@ -39,17 +39,16 @@
 
     <!-- <splash src="img/splashScreen.png" platform="ios"/> -->
 
-    <!-- 
-    <platform name="ios">    
-        <splash src="img/screen/ios/Default@2x~iphone~anyany.png" />
-        <splash src="img/screen/ios/Default@2x~iphone~comany.png" />
-        <splash src="img/screen/ios/Default@2x~iphone~comcom.png" />
-        <splash src="img/screen/ios/Default@3x~iphone~anyany.png" />
-        <splash src="img/screen/ios/Default@3x~iphone~anycom.png" />
-        <splash src="img/screen/ios/Default@3x~iphone~comany.png" />
-        <splash src="img/screen/ios/Default@2x~ipad~anyany.png" />
-        <splash src="img/screen/ios/Default@2x~ipad~comany.png" />   
-    </platform> -->
+    
+    
+        <splash src="img/screen/ios/Default@2x~iphone~anyany.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@2x~iphone~comany.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@2x~iphone~comcom.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@3x~iphone~anyany.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@3x~iphone~anycom.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@3x~iphone~comany.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@2x~ipad~anyany.png" platform="ios"/>
+        <splash src="img/screen/ios/Default@2x~ipad~comany.png" platform="ios"/>   
     
 
     <!-- ANDROID -->
