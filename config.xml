@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "romana.bacromana.example"
+        id          = "7DNK5S2QGA.romana.bacromana.example"
         versionCode = "58"
         version     = "5.8.8"
         android-versionCode="104280" 
         >
+
 
 
     <!-- versionCode is optional and Android only -->
