@@ -39,6 +39,9 @@
 
     <!-- <splash src="img/splashScreen.png" platform="ios"/> -->
 
+    <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport fit=cover">
+    
+    
 
     <!-- ANDROID -->
     <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
@@ -49,7 +52,7 @@
     <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
 
-    <splash src="img/splashScreen.png" platform="winphone" />
+    
 
     <splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" />
     <!-- END SPLASH -->
