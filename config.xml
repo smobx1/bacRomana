@@ -19,6 +19,7 @@
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <!-- end plugin -->
@@ -41,14 +42,14 @@
 
     
     
-        <splash src="img/screen/ios/Default@2x~iphone~anyany.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@2x~iphone~comany.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@2x~iphone~comcom.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@3x~iphone~anyany.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@3x~iphone~anycom.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@3x~iphone~comany.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@2x~ipad~anyany.png" platform="ios"/>
-        <splash src="img/screen/ios/Default@2x~ipad~comany.png" platform="ios"/>   
+    <splash src="img/screen/ios/Default@2x~iphone~anyany.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@2x~iphone~comany.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@2x~iphone~comcom.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@3x~iphone~anyany.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@3x~iphone~anycom.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@3x~iphone~comany.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@2x~ipad~anyany.png" platform="ios"/>
+    <splash src="img/screen/ios/Default@2x~ipad~comany.png" platform="ios"/>   
     
 
     <!-- ANDROID -->
