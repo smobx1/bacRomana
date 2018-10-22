@@ -34,13 +34,8 @@
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         DesignRoom
-    </author>
-    <!-- -->
-    
-
+    </author>    
     <!-- <splash src="img/splashScreen.png" platform="ios"/> -->
-
-    
     
     <splash src="img/screen/ios/Default@2x~iphone~anyany.png" platform="ios"/>
     <splash src="img/screen/ios/Default@2x~iphone~comany.png" platform="ios"/>
