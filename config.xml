@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "7DNK5S2QGA.romana.bacromana.example"
+        id          = "romana.bacromana.example"
         versionCode = "58"
         version     = "5.8.8"
         android-versionCode="104280" 
