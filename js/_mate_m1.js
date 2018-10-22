@@ -28,7 +28,7 @@ var luceafarul = {
 
 if(document.getElementById("title").innerHTML == "Multimi Subiect I"){
   var continut = document.getElementById("continut");
-  continut.innerHTML += "<img src='../img/margini_mici_tm.jpg' style='max-width:100%;'>";
+  continut.innerHTML += "<img src='../img/magini_mici_tfm.jpg' style='max-width:100%;'>";
 }
 
 
