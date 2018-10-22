@@ -35,17 +35,17 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         DesignRoom
     </author>    
-    <!-- <splash src="img/splashScreen.png" platform="ios"/> -->
-    
-    <splash src="img/screen/Default@2x~iphone~anyany.png" platform="ios"/>
-    <splash src="img/screen/Default@2x~iphone~comany.png" platform="ios"/>
-    <splash src="img/screen/Default@2x~iphone~comcom.png" platform="ios"/>
-    <splash src="img/screen/Default@3x~iphone~anyany.png" platform="ios"/>
-    <splash src="img/screen/Default@3x~iphone~anycom.png" platform="ios"/>
-    <splash src="img/screen/Default@3x~iphone~comany.png" platform="ios"/>
-    <splash src="img/screen/Default@2x~ipad~anyany.png" platform="ios"/>
-    <splash src="img/screen/Default@2x~ipad~comany.png" platform="ios"/>   
-    
+
+    <platform name="ios"> 
+        <splash src="img/screen/Default@2x~iphone~anyany.png"/>
+        <splash src="img/screen/Default@2x~iphone~comany.png"/>
+        <splash src="img/screen/Default@2x~iphone~comcom.png"/>
+        <splash src="img/screen/Default@3x~iphone~anyany.png"/>
+        <splash src="img/screen/Default@3x~iphone~anycom.png"/>
+        <splash src="img/screen/Default@3x~iphone~comany.png"/>
+        <splash src="img/screen/Default@2x~ipad~anyany.png"/>
+        <splash src="img/screen/Default@2x~ipad~comany.png"/>   
+    </platform>
 
     <!-- ANDROID -->
     <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
