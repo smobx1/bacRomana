@@ -46,6 +46,8 @@
         <splash src="img/res/screen/ios/Default@3x~iphone~comany.png" />
         <splash src="img/res/screen/ios/Default@2x~ipad~anyany.png" />
         <splash src="img/res/screen/ios/Default@2x~ipad~comany.png" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
     </platform>
 
     <!-- ANDROID -->
@@ -109,6 +111,8 @@
     <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
     <icon src="img/iconRomana.png" platform="ios" width="100" height="100" />
 
+    <engine name="ios" spec="^4.5.0" />
+    <plugin name="cordova-plugin-device" spec="^1.1.6" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
 
