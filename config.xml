@@ -44,13 +44,13 @@
     <splash src="img/Default@2x~universal~anyany.png" />
 
     <!-- ANDROID -->
-    <!-- <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
-    <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" /> -->
+    <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
     
     
 
