@@ -19,8 +19,8 @@
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
 
-    <preference name='phonegap-version' value='cli-6.5.0' />
-    <preference name='pgb-builder-version' value='2' />
+   <!--  <preference name='phonegap-version' value='cli-6.5.0' />
+    <preference name='pgb-builder-version' value='2' /> -->
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
 
     <framework src="com.google.android.gms:play-services-ads:+" />
@@ -41,7 +41,7 @@
 
     
     <!-- splash ios --> 
-    <splash src="img/Default@2x~universal~anyany.png" />
+    <!-- <splash src="img/Default@2x~universal~anyany.png" /> -->
 
     <!-- ANDROID -->
     <!-- <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
@@ -103,7 +103,7 @@
     <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
     <icon src="img/iconRomana.png" platform="ios" width="100" height="100" />
 
-    <!-- <engine name="ios" spec="^4.5.0" /> -->
+    <engine name="ios" spec="^4.5.0" />
     <plugin name="cordova-plugin-device" spec="^1.1.6" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
