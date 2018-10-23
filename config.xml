@@ -19,8 +19,7 @@
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
-    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
+
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <!-- end plugin -->
@@ -109,5 +108,8 @@
     <!-- iPad Spotlight and Settings Icon -->
     <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
     <icon src="img/iconRomana.png" platform="ios" width="100" height="100" />
+
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 
 </widget>
