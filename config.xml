@@ -85,7 +85,9 @@
 
     <!-- iPad -->
     <icon src="img/icons/Icon-76.png" platform="ios" width="76" height="76" />
+    <icon src="img/icons/Icon-76px.png" platform="ios" width="76" height="76" />
     <icon src="img/icons/Icon-76@2x.png" platform="ios" width="152" height="152" />
+    <icon src="img/icons/Icon-76@3x.png" platform="ios" width="167" height="167" />
 
     <!-- Settings Icon -->
     <icon src="img/iconRomana.png" platform="ios" width="29" height="29" />
@@ -106,6 +108,7 @@
     <!-- iPhone Spotlight and Settings Icon -->
     <icon src="img/iconRomana.png" platform="ios" width="29" height="29" />
     <icon src="img/iconRomana.png" platform="ios" width="58" height="58" />
+    <icon src="img/iconRomana.png" platform="ios" width="40" height="40" />
 
     <!-- iPad Spotlight and Settings Icon -->
     <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
