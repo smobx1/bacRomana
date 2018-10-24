@@ -111,8 +111,5 @@
     <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
     <icon src="img/iconRomana.png" platform="ios" width="100" height="100" />
 
-    
-    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
 
 </widget>
