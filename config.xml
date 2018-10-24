@@ -41,8 +41,11 @@
         DesignRoom
     </author>
     
-
+    
+    <!-- START SPLASH -->
+    
     <!-- NOU -->
+    <!-- IOS sau UNIVERSAL -->
     <splash src="img/Default@2x~universal~anyany.png" />
     <!-- END-NOU -->
 
@@ -57,10 +60,10 @@
     <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
 
-<splash src="img/splashScreen.png" platform="winphone" />
-
-<splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" />
-<!-- END SPLASH -->
+    <!-- <splash src="img/splashScreen.png" platform="winphone" /> -->
+    <!-- <splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" /> -->
+    
+    <!-- END SPLASH -->
 
 
     <icon src="img/iconRomana.png" platform="android" qualifier="ldpi" />
