@@ -2,9 +2,10 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
-        versionCode = "55"
-        android-versionCode="104280" 
-        version     = "5.1.5" >
+        versionCode = "62"
+        version     = "6.0.2"
+        android-versionCode="104281" 
+        >
 
 
     <!-- versionCode is optional and Android only -->
@@ -17,12 +18,16 @@
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
+
+    <preference name='phonegap-version' value='cli-6.5.0' />
+    <preference name='pgb-builder-version' value='2' />
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
+
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <!-- end plugin -->
 
-
+    
 
     <name>Bac cu Brio</name>
 
@@ -32,42 +37,30 @@
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         DesignRoom
-    </author>
-<!-- START SPLASH -->
-<!-- iPhone and iPod touch -->
-<splash src="img/splashScreen.png" platform="ios" width="320" height="480" />
-<splash src="img/splashScreen.png" platform="ios" width="640" height="960" />
+    </author>    
 
-<!-- iPhone 5 / iPod Touch (5th Generation) -->
-<splash src="img/splashScreen.png" platform="ios" width="640" height="1136" />
+    
+    <!-- splash ios --> 
+    <splash src="img/Default@2x~universal~anyany.png" />
 
-<!-- iPhone 6 -->
-<splash src="img/splashScreen.png" platform="ios" width="750" height="1334" />
-<splash src="img/splashScreen.png" platform="ios" width="1242" height="2208" />
-<splash src="img/splashScreen.png" platform="ios" width="2208" height="1242" />
+    <!-- <preference name="SplashMaintainAspectRatio" value="true|false" />
+    <preference name="SplashShowOnlyFirstTime" value="true|false" />
+    <preference name="SplashScreenSpinnerColor" value="white" /> -->
 
-<!-- iPad -->
-<splash src="img/splashScreen.png" platform="ios" width="768" height="1024" />
-<splash src="img/splashScreen.png" platform="ios" width="1024" height="768" />
+    <!-- ANDROID -->
+    <!-- <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" /> -->
+    
 
-<!-- Retina iPad -->
-<splash src="img/splashScreen.png" platform="ios" width="1536" height="2048" />
-<splash src="img/splashScreen.png" platform="ios" width="2048" height="1536" />
+    
 
-
-<!-- ANDROID -->
-<splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
-
-<splash src="img/splashScreen.png" platform="winphone" />
-
-<splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" />
-<!-- END SPLASH -->
+    <splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" />
+    <!-- END SPLASH -->
 
 
     <icon src="img/iconRomana.png" platform="android" qualifier="ldpi" />
@@ -114,5 +107,10 @@
     <!-- iPad Spotlight and Settings Icon -->
     <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
     <icon src="img/iconRomana.png" platform="ios" width="100" height="100" />
+
+    <engine name="ios" spec="^4.5.0" />
+    <plugin name="cordova-plugin-device" spec="^1.1.6" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 
 </widget>
