@@ -84,7 +84,6 @@
     <icon src="img/icons/Icon-60@2x.png" platform="ios" width="120" height="120" />
 
     <!-- iPad -->
-    <icon src="img/icons/Icon-76.png" platform="ios" width="76" height="76" />
     <icon src="img/icons/Icon-76px.png" platform="ios" width="76" height="76" />
     <icon src="img/icons/Icon-76@2x.png" platform="ios" width="152" height="152" />
     <icon src="img/icons/Icon-76@3x.png" platform="ios" width="167" height="167" />
