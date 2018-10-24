@@ -17,11 +17,14 @@
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
-
+    
+    <!-- NOU -->
     <preference name='phonegap-version' value='cli-6.5.0' />
     <preference name='pgb-builder-version' value='2' />
+    <!-- END-NOU -->
+
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
-    
+
     <framework src="com.google.android.gms:play-services-ads:+" />
 
     <!-- end plugin -->
@@ -37,36 +40,22 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         DesignRoom
     </author>
-<!-- START SPLASH -->
-<!-- iPhone and iPod touch -->
-<splash src="img/splashScreen.png" platform="ios" width="320" height="480" />
-<splash src="img/splashScreen.png" platform="ios" width="640" height="960" />
+    
 
-<!-- iPhone 5 / iPod Touch (5th Generation) -->
-<splash src="img/splashScreen.png" platform="ios" width="640" height="1136" />
-
-<!-- iPhone 6 -->
-<splash src="img/splashScreen.png" platform="ios" width="750" height="1334" />
-<splash src="img/splashScreen.png" platform="ios" width="1242" height="2208" />
-<splash src="img/splashScreen.png" platform="ios" width="2208" height="1242" />
-
-<!-- iPad -->
-<splash src="img/splashScreen.png" platform="ios" width="768" height="1024" />
-<splash src="img/splashScreen.png" platform="ios" width="1024" height="768" />
-
-<!-- Retina iPad -->
-<splash src="img/splashScreen.png" platform="ios" width="1536" height="2048" />
-<splash src="img/splashScreen.png" platform="ios" width="2048" height="1536" />
+    <!-- NOU -->
+    <splash src="img/Default@2x~universal~anyany.png" />
+    <!-- END-NOU -->
 
 
-<!-- ANDROID -->
-<splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
-<splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
+
+    <!-- ANDROID -->
+    <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" />
 
 <splash src="img/splashScreen.png" platform="winphone" />
 
