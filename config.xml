@@ -12,7 +12,7 @@
 
 
     <!-- start plugin -->
-    <gap:plugin name="cordova-plugin-admob" source="npm" />
+    <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
 
 
     <preference name="permissions" value="none"/>
