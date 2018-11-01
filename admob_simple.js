@@ -23,26 +23,26 @@ function initApp() {
   if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
 
 
-  // setTimeout(function() {
-  //       // this will create a banner on startup
-  //       AdMob.createBanner( {
-  //         adId: admobid.banner,
-  //         position: AdMob.AD_POSITION.BOTTOM_CENTER,
-  //         // isTesting: true, // TODO: remove this line when release
-  //         overlap: false,
-  //         offsetTopBar: false,
-  //         bgColor: 'black'
-  //       } );
-  //
-  //       // this will load a full screen ad on startup
-  //       AdMob.prepareInterstitial({
-  //         adId: admobid.interstitial,
-  //         // isTesting: true, // TODO: remove this line when release
-  //         autoShow: true
-  //       });
-  // }, 2000);
+  setTimeout(function() {
+        // this will create a banner on startup
+        AdMob.createBanner( {
+          adId: admobid.banner,
+          position: AdMob.AD_POSITION.BOTTOM_CENTER,
+          // isTesting: true, // TODO: remove this line when release
+          overlap: false,
+          offsetTopBar: false,
+          bgColor: 'black'
+        } );
+  
+        // this will load a full screen ad on startup
+        AdMob.prepareInterstitial({
+          adId: admobid.interstitial,
+          // isTesting: true, // TODO: remove this line when release
+          autoShow: true
+        });
+  }, 2000);
 
-    // this will create a banner on startup
+  //  this will create a banner on startup
 
 
 
@@ -69,7 +69,6 @@ function initApp() {
         someAdCode();
         // schedule it to repeat every 1 minutes
         setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
-        alert();
     }, 750);
 
 
