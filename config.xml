@@ -14,7 +14,7 @@
     <!-- start plugin -->
     <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
 
-    <gap:plugin name="com.admob.plugin" version="3.0.0" source="plugins.cordova.io" />
+    <gap:plugin name="phonegap-admob" source="npm"/>
 
 
     <preference name="permissions" value="none"/>
