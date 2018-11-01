@@ -12,7 +12,7 @@
 
 
     <!-- start plugin -->
-    <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
+    <gap:plugin name="cordova-plugin-admob" source="npm" />
 
 
     <preference name="permissions" value="none"/>
@@ -23,7 +23,7 @@
     <preference name='pgb-builder-version' value='2' />
     <!-- END-NOU -->
 
-    <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
 
     <framework src="com.google.android.gms:play-services-ads:+" />
 
