@@ -1,4 +1,3 @@
-alert("inainte");
 
 
  var isAppForeground = true;
@@ -77,13 +76,14 @@ alert("inainte");
       initAds();
 
       // display a banner at startup
-      admob.createBannerView();
+      // admob.createBannerView();
         
       // request an interstitial
       admob.requestInterstitialAd();
+
+      setInterval(initAds(), 1 * 60 * 1000); // 1000 = 1s
     }
     
     document.addEventListener("deviceready", onDeviceReady, false);
 
 
-alert("dupa");
