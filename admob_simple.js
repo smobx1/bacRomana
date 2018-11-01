@@ -3,13 +3,12 @@ var admobid = {};
 // TODO: replace the following ad units with your own
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
-    banner: 'ca-app-pub-2785420618056516/9510653987',
-    interstitial: 'ca-app-pub-2785420618056516/7921769986'
+    // banner: 'ca-app-pub-2785420618056516/9510653987',
+    // interstitial: 'ca-app-pub-2785420618056516/7921769986'
   };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
   admobid = { // for iOS
-    banner: 'ca-app-pub-2785420618056516/8033920782',
-    interstitial: 'ca-app-pub-2785420618056516/1875236383'
+    interstitial: 'ca-app-pub-2789022727093400/9133177509'
   };
 } else {
   admobid = { // for Windows Phone
@@ -55,14 +54,14 @@ function initApp() {
                 autoShow: true
               });
 
-              AdMob.createBanner( {
-                adId: admobid.banner,
-                position: AdMob.AD_POSITION.BOTTOM_CENTER,
-                isTesting: true, // TODO: remove this line when releas  e
-                overlap: false,
-                offsetTopBar: false,
-                bgColor: 'black'
-              } );
+              // AdMob.createBanner( {
+              //   adId: admobid.banner,
+              //   position: AdMob.AD_POSITION.BOTTOM_CENTER,
+              //   isTesting: true, // TODO: remove this line when releas  e
+              //   overlap: false,
+              //   offsetTopBar: false,
+              //   bgColor: 'black'
+              // } );
     }
 
     // start it in 2 seconds
@@ -70,6 +69,7 @@ function initApp() {
         someAdCode();
         // schedule it to repeat every 1 minutes
         setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
+        alert();
     }, 750);
 
 
