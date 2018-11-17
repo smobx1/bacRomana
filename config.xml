@@ -10,11 +10,7 @@
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
-
-    <!-- start plugin -->
-    <!-- <gap:plugin name="cordova-plugin-admob" source="npm" /> -->
-
-    <gap:plugin name="phonegap-admob" source="npm"/>
+    <!-- <gap:plugin name="phonegap-admob" source="npm"/> -->
 
 
     <preference name="permissions" value="none"/>
