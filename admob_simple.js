@@ -151,7 +151,8 @@ function initAds() {
     admob.setOptions({
       publisherId:          admobid.banner,
       interstitialAdId:     admobid.interstitial,
-      autoShowInterstitial: false
+      autoShowInterstitial: false,
+      isTesting: true, // receiving test ads (do not test with real ads as your account will be banned)
     });
 
     registerAdEvents();
