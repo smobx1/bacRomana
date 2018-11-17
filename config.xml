@@ -3,14 +3,14 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
         versionCode = "64"
-        android-versionCode="104282" 
+        android-versionCode = "104282" 
         version     = "6.0.4" >
 
 
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
-    <!-- <gap:plugin name="phonegap-admob" source="npm"/> -->
+    <gap:plugin name="phonegap-admob" source="npm"/>
 
 
     <preference name="permissions" value="none"/>
