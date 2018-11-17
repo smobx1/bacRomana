@@ -79,9 +79,13 @@
       // admob.createBannerView();
         
       // request an interstitial
-      setTimeout(function() { admob.requestInterstitialAd(); }, 5000);
+      setTimeout(function() { admob.requestInterstitialAd(); }, 2000);
       
     }
+
+      setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
+  
+
 
 
     
