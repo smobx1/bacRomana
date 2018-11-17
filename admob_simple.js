@@ -1,89 +1,86 @@
-// alert("inainte");
+var admobid = {};
 
- var isAppForeground = true;
-    
-    function initAds() {
-      if (admob) {
-        var adPublisherIds = {
-          ios : {
-            // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400/9133177509"
-          },
-          android : {
-            // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400/5800437153"
-          }
-        };
-        
-        var admobid = (/(android)/i.test(navigator.userAgent)) ? adPublisherIds.android : adPublisherIds.ios;
-            
-        admob.setOptions({
-          publisherId:      admobid.banner,
-          interstitialAdId: admobid.interstitial,
-          tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
-          tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
-          tappxShare:       0.5,
-          isTesting: true, // receiving test ads (do not test with real ads as your account will be banned)
-          
-        });
+// TODO: replace the following ad units with your own
+if( /(android)/i.test(navigator.userAgent) ) {
+  admobid = { // for Android
+    banner: 'ca-app-pub-2785420618056516/9510653987',
+    interstitial: 'ca-app-pub-2785420618056516/7921769986'
+  };
+} else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
+  admobid = { // for iOS
+    banner: 'ca-app-pub-2785420618056516/8033920782',
+    interstitial: 'ca-app-pub-2785420618056516/1875236383'
+  };
+} else {
+  admobid = { // for Windows Phone
+    // banner: 'ca-app-pub-6869992474017983/8878394753',
+    // interstitial: 'ca-app-pub-6869992474017983/1355127956'
+  };
+}
 
-        registerAdEvents();
-        
+
+
+function initApp() {
+  if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
+
+
+  // setTimeout(function() {
+  //       // this will create a banner on startup
+  //       AdMob.createBanner( {
+  //         adId: admobid.banner,
+  //         position: AdMob.AD_POSITION.BOTTOM_CENTER,
+  //         // isTesting: true, // TODO: remove this line when release
+  //         overlap: false,
+  //         offsetTopBar: false,
+  //         bgColor: 'black'
+  //       } );
+  //
+  //       // this will load a full screen ad on startup
+  //       AdMob.prepareInterstitial({
+  //         adId: admobid.interstitial,
+  //         // isTesting: true, // TODO: remove this line when release
+  //         autoShow: true
+  //       });
+  // }, 2000);
+
+    // this will create a banner on startup
+
+
+
+    function someAdCode() {
+              // this will load a full screen ad on startup
+              AdMob.prepareInterstitial({
+                adId: admobid.interstitial,
+                // isTesting: true, // TODO: remove this line when release
+                autoShow: true
+              });
+
+              AdMob.createBanner( {
+                adId: admobid.banner,
+                position: AdMob.AD_POSITION.BOTTOM_CENTER,
+                // isTesting: true, // TODO: remove this line when release
+                overlap: false,
+                offsetTopBar: false,
+                bgColor: 'black'
+              } );
+    }
+
+    // start it in 2 seconds
+    setTimeout(function() {
+        someAdCode();
+        // schedule it to repeat every 1 minutes
+        setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
+    }, 750);
+
+
+
+
+
+}
+// setInterval(function() {
+      if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
+          document.addEventListener('deviceready', initApp, false);
       } else {
-        alert('AdMobAds plugin not ready');
+          initApp();
       }
-    }
-    
-    function onAdLoaded(e) {
-      if (isAppForeground) {
-        if (e.adType === admob.AD_TYPE.INTERSTITIAL) {
-          console.log("An interstitial has been loaded and autoshown. If you want to load the interstitial first and show it later, set 'autoShowInterstitial: false' in admob.setOptions() and call 'admob.showInterstitialAd();' here");
-        } else if (e.adType === admob.AD_TYPE_BANNER) {
-          console.log("New banner received");
-        }
-      }
-    }
-    
-    function onPause() {
-      if (isAppForeground) {
-        admob.destroyBannerView();
-        isAppForeground = false;
-      }
-    }
-    
-    function onResume() {
-      if (!isAppForeground) {
-        setTimeout(admob.createBannerView, 1);
-        setTimeout(admob.requestInterstitialAd, 1);
-        isAppForeground = true;
-      }
-    }
-    
-    // optional, in case respond to events
-    function registerAdEvents() {
-      document.addEventListener(admob.events.onAdLoaded, onAdLoaded);
-      document.addEventListener(admob.events.onAdFailedToLoad, function (e) {});
-      document.addEventListener(admob.events.onAdOpened, function (e) {});
-      document.addEventListener(admob.events.onAdClosed, function (e) {});
-      document.addEventListener(admob.events.onAdLeftApplication, function (e) {});
-      
-      document.addEventListener("pause", onPause, false);
-      document.addEventListener("resume", onResume, false);
-    }
-        
-    function onDeviceReady() {
-      document.removeEventListener('deviceready', onDeviceReady, false);
-      initAds();
-
-      // display a banner at startup
-      // admob.createBannerView();
-        
-      // request an interstitial
-      admob.requestInterstitialAd();
-
-    }
-    
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-
-// alert("dupa");
+// }, 10000);
