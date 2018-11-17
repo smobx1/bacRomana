@@ -1,4 +1,4 @@
-
+// alert("inainte");
 
  var isAppForeground = true;
     
@@ -11,7 +11,7 @@
           },
           android : {
             // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400~9614023972"
+            interstitial : "ca-app-pub-2789022727093400/5800437153"
           }
         };
         
@@ -81,9 +81,9 @@
       // request an interstitial
       admob.requestInterstitialAd();
 
-      setInterval(initAds(), 1 * 60 * 1000); // 1000 = 1s
     }
     
     document.addEventListener("deviceready", onDeviceReady, false);
 
 
+// alert("dupa");
