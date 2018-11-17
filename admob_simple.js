@@ -79,10 +79,11 @@
       // admob.createBannerView();
         
       // request an interstitial
-      admob.requestInterstitialAd();
+      setTimeout(function() { admob.requestInterstitialAd(); }, 5000);
+      
     }
 
-    setTimeout(function() { onDeviceReady(); }, 5000);
+
     
     document.addEventListener("deviceready", onDeviceReady, false);
 
