@@ -46,7 +46,7 @@ var lectie3 = {
 };
 
 var lectie4 = {
-  nume:"Unitati Alpine",
+  nume:"Unități Alpine",
   autor:"",
   cat:"",
   an:"",
