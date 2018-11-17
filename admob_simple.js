@@ -6,11 +6,11 @@
         var adPublisherIds = {
           ios : {
             // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400/9133177509"
+            interstitial : "ca-app-pub-2789022727093400/9133177509XXX"
           },
           android : {
             // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400/5800437153"
+            interstitial : "ca-app-pub-2789022727093400/5800437153XXX"
           }
         };
         
