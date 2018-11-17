@@ -81,6 +81,8 @@
       // request an interstitial
       admob.requestInterstitialAd();
     }
+
+    setTimeout(function() { onDeviceReady(); }, 5000);
     
     document.addEventListener("deviceready", onDeviceReady, false);
 
