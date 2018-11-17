@@ -83,7 +83,7 @@
       
     }
 
-      // setInterval(someAdCode, 1 * 60 * 1000); // 1000 = 1s
+      setInterval(onDeviceReady, 1 * 60 * 1000); // 1000 = 1s
   
 
 
