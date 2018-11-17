@@ -42,6 +42,14 @@
         }
       }
     }
+
+    function onAdClosed(e) {
+      if (isAppForeground) {
+        if (e.adType === admob.AD_TYPE.INTERSTITIAL) {
+          setTimeout(admob.requestInterstitialAd, 1000 * 60 * 2);
+        }
+      }
+    }
     
     function onPause() {
       if (isAppForeground) {
@@ -63,7 +71,7 @@
       document.addEventListener(admob.events.onAdLoaded, onAdLoaded);
       document.addEventListener(admob.events.onAdFailedToLoad, function (e) {});
       document.addEventListener(admob.events.onAdOpened, function (e) {});
-      document.addEventListener(admob.events.onAdClosed, function (e) {});
+      document.addEventListener(admob.events.onAdClosed, onAdClosed);
       document.addEventListener(admob.events.onAdLeftApplication, function (e) {});
       document.addEventListener(admob.events.onInAppPurchaseRequested, function (e) {});
       
