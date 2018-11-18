@@ -21,8 +21,8 @@
           interstitialAdId: admobid.interstitial,
           tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
           tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
-          tappxShare:       0.5
-          // isTesting: true
+          tappxShare:       0.5,
+          isTesting: true
           
         });
  
@@ -79,11 +79,11 @@
       // admob.createBannerView();
         
       // request an interstitial
-      setTimeout(function() { admob.requestInterstitialAd(); }, 2000);
+      setTimeout(function() { admob.requestInterstitialAd(); }, 750);
       
     }
 
-      setInterval(onDeviceReady, 1 * 60 * 1000); // 1000 = 1s
+      // setInterval(onDeviceReady, 1 * 60 * 1000); // 1000 = 1s
   
 
 
