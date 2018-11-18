@@ -79,7 +79,7 @@
       // admob.createBannerView();
         
       // request an interstitial
-      setTimeout(function() { admob.requestInterstitialAd(); }, 750);
+      // admob.requestInterstitialAd(); 
       
     }
 
