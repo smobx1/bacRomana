@@ -6,11 +6,11 @@
         var adPublisherIds = {
           ios : {
             // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400/9133177509XXX"
+            interstitial : "ca-app-pub-2789022727093400/9133177509"
           },
           android : {
             // banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-2789022727093400/5800437153XXX"
+            interstitial : "ca-app-pub-2789022727093400/5800437153"
           }
         };
         
@@ -21,8 +21,8 @@
           interstitialAdId: admobid.interstitial,
           tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
           tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
-          tappxShare:       0.5,
-          isTesting: true
+          tappxShare:       0.5
+          // isTesting: true
           
         });
  
