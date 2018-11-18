@@ -19,6 +19,9 @@
     <!-- NOU -->
     <preference name='phonegap-version' value='cli-6.5.0' />
     <preference name='pgb-builder-version' value='2' />
+    <!-- test -->
+    <preference name="android-targetSdkVersion" value="26"/>
+
     <!-- END-NOU -->
 
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
