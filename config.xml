@@ -10,7 +10,9 @@
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
-    <gap:plugin name="phonegap-admob" source="npm"/>
+    
+
+    
 
 
     <preference name="permissions" value="none"/>
