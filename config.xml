@@ -2,9 +2,9 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
-        versionCode = "68"
-        android-versionCode = "104291" 
-        version     = "6.0.8" >
+        versionCode = "70"
+        android-versionCode = "104292" 
+        version     = "7.0" >
 
 
     <!-- versionCode is optional and Android only -->
@@ -12,7 +12,7 @@
 
     
 
-    
+    <gap:plugin name="phonegap-admob" source="npm"/>
     
 
     <preference name="permissions" value="none"/>
