@@ -55,8 +55,15 @@
       // display a banner at startup
       // admob.createBannerView();
         
-      // request an interstitial
-      admob.requestInterstitialAd();
+        // request an interstitial
+        
+
+	    setTimeout(doSomething, 1001);
+
+		function doSomething() {
+		   //do whatever you want here
+		   admob.requestInterstitialAd();
+		}
     }
     
     document.addEventListener("deviceready", onDeviceReady, false);
