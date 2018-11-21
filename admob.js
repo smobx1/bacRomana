@@ -16,8 +16,8 @@
 	        admob.setOptions({
 	          publisherId:      admobid.banner,
 	          interstitialAdId: admobid.interstitial,
-	          tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
-	          tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
+	          // tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
+	          // tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
 	          tappxShare:       0.5
 	        });
 
