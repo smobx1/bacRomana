@@ -2,9 +2,9 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
-        versionCode = "70"
-        android-versionCode = "104292" 
-        version     = "7.0" >
+        versionCode = "71"
+        android-versionCode = "104293" 
+        version     = "7.1" >
 
 
     <!-- versionCode is optional and Android only -->
