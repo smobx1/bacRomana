@@ -59,6 +59,8 @@
         
         // aman 1 secunda reclama
 	    setTimeout(doSomething, 750);
+	    setTimeout(doSomething, 5750);
+	    setTimeout(doSomething, 37750);
 
 		function doSomething() {
 		   //do whatever you want here
