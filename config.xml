@@ -62,9 +62,6 @@
     <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" /> -->
-
-    <!-- <splash src="img/splashScreen.png" platform="winphone" /> -->
-    <!-- <splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" /> -->
     
     <!-- END SPLASH -->
 
