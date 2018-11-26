@@ -2,16 +2,18 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
-        versionCode = "64"
-        android-versionCode = "104282" 
-        version     = "6.0.4" >
+        versionCode = "72"
+        android-versionCode = "104294" 
+        version     = "7.2" >
 
 
     <!-- versionCode is optional and Android only -->
     <preference name="DisallowOverscroll" value="true" />
 
-    <gap:plugin name="phonegap-admob" source="npm"/>
+    
 
+    <gap:plugin name="phonegap-admob" source="npm"/>
+    
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
@@ -19,6 +21,9 @@
     <!-- NOU -->
     <preference name='phonegap-version' value='cli-6.5.0' />
     <preference name='pgb-builder-version' value='2' />
+    <!-- test -->
+    <preference name="android-targetSdkVersion" value="26"/>
+
     <!-- END-NOU -->
 
     <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
@@ -57,9 +62,6 @@
     <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
     <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" /> -->
-
-    <!-- <splash src="img/splashScreen.png" platform="winphone" /> -->
-    <!-- <splash platform="winphone" width="1152" height="1920" src="img/splashScreen.png" /> -->
     
     <!-- END SPLASH -->
 
@@ -113,3 +115,5 @@
 
 
 </widget>
+
+
