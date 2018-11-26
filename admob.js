@@ -16,7 +16,7 @@
 	        admob.setOptions({
 	          publisherId: "pub-2789022727093400",
 	          interstitialAdId: admobid.interstitial,
-	          // isTesting: true, 
+	          isTesting: true, 
 	          // tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
 	          // tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
 	          tappxShare:       0.5
