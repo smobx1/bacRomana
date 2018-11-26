@@ -46,7 +46,7 @@ var lectie3 = {
 };
 
 var lectie4 = {
-  nume:"Unitati Alpine",
+  nume:"Unități Alpine",
   autor:"",
   cat:"",
   an:"",
@@ -802,7 +802,7 @@ var lectie60 = {
   parte_7:"p7"
 };
 var lectie61 = {
-  nume:"ROMÂNIA – JUDEȚE",
+  nume:"România – Județe",
   autor:"",
   cat:"",
   an:"",
@@ -842,14 +842,14 @@ if(document.getElementById("title").innerHTML == "Lectie1"){
   continut.innerHTML += "<p class='p3'>"+lectie1.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie1.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie1.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie1.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie1.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie1.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie1.parte_7+"</p>";
 }
 
 if(document.getElementById("title").innerHTML == "Lectie2"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie2.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie2.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie2.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie2.cat+"<br>"+lectie2.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie2.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie2.parte_2+"</p>";
@@ -857,80 +857,80 @@ if(document.getElementById("title").innerHTML == "Lectie2"){
   continut.innerHTML += "<p class='p4'>"+lectie2.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie2.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie2.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie2.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie2.parte_7+"</p>";
 }
 
 if(document.getElementById("title").innerHTML == "Lectie3"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie3.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie3.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie3.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie3.cat+"<br>"+lectie3.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie3.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie3.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie3.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie3.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie3.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie3.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie3.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie3.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie3.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie3.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie3.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie3.parte_7+"</p>";
 }
 
 if(document.getElementById("title").innerHTML == "Lectie4"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie4.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie4.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie4.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie4.cat+"<br>"+lectie4.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie4.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie4.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie4.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie4.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie4.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie4.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie4.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie4.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie4.parte_7+"</p>";
 }
 
 if(document.getElementById("title").innerHTML == "Lectie5"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie5.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie5.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie5.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie5.cat+"<br>"+lectie5.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie5.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie5.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie5.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie5.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie5.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie5.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie5.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie5.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie5.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie5.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie5.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie5.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie6"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie6.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie6.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie6.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie6.cat+"<br>"+lectie6.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie6.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie6.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie6.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie6.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie6.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie6.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie6.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie6.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie6.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie6.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie6.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie6.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie6.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie7"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie7.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie7.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie7.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie7.cat+"<br>"+lectie7.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie7.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie7.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie7.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie7.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie7.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie7.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie7.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie7.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie7.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie7.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie7.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie7.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie7.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie8"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie8.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie8.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie8.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie8.cat+"<br>"+lectie8.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie8.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie8.parte_2+"</p>";
@@ -943,7 +943,7 @@ if(document.getElementById("title").innerHTML == "Lectie8"){
 if(document.getElementById("title").innerHTML == "Lectie9"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie9.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie9.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie9.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie9.cat+"<br>"+lectie9.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie9.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie9.parte_2+"</p>";
@@ -956,72 +956,72 @@ if(document.getElementById("title").innerHTML == "Lectie9"){
 if(document.getElementById("title").innerHTML == "Lectie10"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie10.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie10.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie10.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie10.cat+"<br>"+lectie10.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie10.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie10.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie10.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie10.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie10.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie10.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie10.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie10.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie10.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie11"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie11.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie11.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie11.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie11.cat+"<br>"+lectie11.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie11.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie11.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie11.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie11.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie11.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie11.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie11.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie11.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie11.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie11.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie12"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie12.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie12.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie12.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie12.cat+"<br>"+lectie12.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie12.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie12.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie12.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie12.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie12.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie12.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie12.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie12.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie12.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie12.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie12.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie13"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie13.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie13.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie13.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie13.cat+"<br>"+lectie13.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie13.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie13.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie13.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie13.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie13.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie13.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie13.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie13.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie13.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie13.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie13.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie14"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie14.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie14.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie14.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie14.cat+"<br>"+lectie14.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie14.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie14.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie14.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie14.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie14.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie14.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie14.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie14.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie14.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie14.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie14.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie14.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie15"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie15.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie15.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie15.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie15.cat+"<br>"+lectie15.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie15.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie15.parte_2+"</p>";
@@ -1034,85 +1034,85 @@ if(document.getElementById("title").innerHTML == "Lectie15"){
 if(document.getElementById("title").innerHTML == "Lectie16"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie16.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie16.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie16.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie16.cat+"<br>"+lectie16.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie16.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie16.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie16.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie16.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie16.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie16.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie16.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie16.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie16.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie16.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie16.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie16.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie16.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie17"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie17.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie17.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie17.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie17.cat+"<br>"+lectie17.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie17.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie17.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie17.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie17.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie17.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie17.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie17.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie17.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie17.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie17.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie17.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie18"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie18.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie18.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie18.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie18.cat+"<br>"+lectie18.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie18.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie18.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie18.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie18.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie18.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie18.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie18.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie18.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie18.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie18.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie19"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie19.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie19.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie19.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie19.cat+"<br>"+lectie19.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie19.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie19.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie19.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie19.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie19.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie19.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie19.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie19.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie19.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie19.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie19.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie19.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie20"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie20.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie20.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie20.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie20.cat+"<br>"+lectie20.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie20.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie20.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie20.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie20.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie20.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie20.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie20.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie20.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie20.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie21"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie21.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie21.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie21.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie21.cat+"<br>"+lectie21.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie21.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie21.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie21.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie21.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie21.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie21.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie21.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie21.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie21.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie22"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie22.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie22.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie22.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie22.cat+"<br>"+lectie22.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie22.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie22.parte_2+"</p>";
@@ -1125,111 +1125,111 @@ if(document.getElementById("title").innerHTML == "Lectie22"){
 if(document.getElementById("title").innerHTML == "Lectie23"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie23.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie23.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie23.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie23.cat+"<br>"+lectie23.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie23.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie23.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie23.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie23.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie23.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie23.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie23.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie23.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie23.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie23.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie24"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie24.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie24.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie24.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie24.cat+"<br>"+lectie24.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie24.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie24.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie24.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie24.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie24.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie24.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie24.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie24.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie24.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie24.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie24.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie25"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie25.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie25.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie25.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie25.cat+"<br>"+lectie25.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie25.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie25.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie25.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie25.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie25.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie25.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie25.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie25.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie25.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie25.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie25.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie26"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie26.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie26.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie26.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie26.cat+"<br>"+lectie26.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie26.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie26.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie26.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie26.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie26.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie26.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie26.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie26.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie26.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie26.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie26.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie26.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie27"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie27.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie27.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie27.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie27.cat+"<br>"+lectie27.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie27.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie27.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie27.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie27.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie27.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie27.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie27.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie27.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie27.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie27.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie27.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie27.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie28"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie28.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie28.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie28.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie28.cat+"<br>"+lectie28.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie28.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie28.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie28.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie28.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie28.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie28.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie28.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie28.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie28.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie28.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie28.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie28.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie29"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie29.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie29.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie29.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie29.cat+"<br>"+lectie29.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie29.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie29.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie29.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie29.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie29.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie29.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie29.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie29.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie29.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie29.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie29.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie29.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie29.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie30"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie30.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie30.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie30.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie30.cat+"<br>"+lectie30.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie30.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie30.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie30.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie30.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie30.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie30.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie30.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie30.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie30.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie30.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie30.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie30.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie30.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie31"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie31.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie31.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie31.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie31.cat+"<br>"+lectie31.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie31.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie31.parte_2+"</p>";
@@ -1237,12 +1237,12 @@ if(document.getElementById("title").innerHTML == "Lectie31"){
   continut.innerHTML += "<p class='p4'>"+lectie31.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie31.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie31.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie31.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie31.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie32"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie32.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie32.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie32.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie32.cat+"<br>"+lectie32.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie32.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie32.parte_2+"</p>";
@@ -1250,39 +1250,39 @@ if(document.getElementById("title").innerHTML == "Lectie32"){
   continut.innerHTML += "<p class='p4'>"+lectie32.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie32.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie32.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie32.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie32.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie33"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie33.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie33.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie33.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie33.cat+"<br>"+lectie33.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie33.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie33.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie33.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie33.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie33.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie33.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie33.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie33.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie33.parte_7+"</p>";
 }
 
 if(document.getElementById("title").innerHTML == "Lectie34"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie34.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie34.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie34.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie34.cat+"<br>"+lectie34.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie34.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie34.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie34.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie34.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie34.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie34.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie34.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie34.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie34.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie34.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie35"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie35.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie35.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie35.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie35.cat+"<br>"+lectie35.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie35.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie35.parte_2+"</p>";
@@ -1295,7 +1295,7 @@ if(document.getElementById("title").innerHTML == "Lectie35"){
 if(document.getElementById("title").innerHTML == "Lectie36"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie36.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie36.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie36.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie36.cat+"<br>"+lectie36.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie36.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie36.parte_2+"</p>";
@@ -1303,12 +1303,12 @@ if(document.getElementById("title").innerHTML == "Lectie36"){
   continut.innerHTML += "<p class='p4'>"+lectie36.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie36.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie36.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie36.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie36.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie37"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie37.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie37.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie37.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie37.cat+"<br>"+lectie37.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie37.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie37.parte_2+"</p>";
@@ -1316,12 +1316,12 @@ if(document.getElementById("title").innerHTML == "Lectie37"){
   continut.innerHTML += "<p class='p4'>"+lectie37.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie37.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie37.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie37.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie37.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie38"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie38.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie38.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie38.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie38.cat+"<br>"+lectie38.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie38.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie38.parte_2+"</p>";
@@ -1329,12 +1329,12 @@ if(document.getElementById("title").innerHTML == "Lectie38"){
   continut.innerHTML += "<p class='p4'>"+lectie38.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie38.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie38.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie38.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie38.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie39"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie39.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie39.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie39.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie39.cat+"<br>"+lectie39.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie39.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie39.parte_2+"</p>";
@@ -1342,12 +1342,12 @@ if(document.getElementById("title").innerHTML == "Lectie39"){
   continut.innerHTML += "<p class='p4'>"+lectie39.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie39.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie39.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie39.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie39.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie40"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie40.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie40.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie40.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie40.cat+"<br>"+lectie40.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie40.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie40.parte_2+"</p>";
@@ -1355,12 +1355,12 @@ if(document.getElementById("title").innerHTML == "Lectie40"){
   continut.innerHTML += "<p class='p4'>"+lectie40.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie40.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie40.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie40.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie40.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie41"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie41.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie41.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie41.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie41.cat+"<br>"+lectie41.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie41.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie41.parte_2+"</p>";
@@ -1368,12 +1368,12 @@ if(document.getElementById("title").innerHTML == "Lectie41"){
   continut.innerHTML += "<p class='p4'>"+lectie41.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie41.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie41.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie41.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie41.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie42"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie42.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie42.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie42.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie42.cat+"<br>"+lectie42.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie42.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie42.parte_2+"</p>";
@@ -1386,7 +1386,7 @@ if(document.getElementById("title").innerHTML == "Lectie42"){
 if(document.getElementById("title").innerHTML == "Lectie43"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie43.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie43.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie43.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie43.cat+"<br>"+lectie43.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie43.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie43.parte_2+"</p>";
@@ -1394,12 +1394,12 @@ if(document.getElementById("title").innerHTML == "Lectie43"){
   continut.innerHTML += "<p class='p4'>"+lectie43.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie43.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie43.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie43.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie43.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie44"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie44.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie44.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie44.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie44.cat+"<br>"+lectie44.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie44.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie44.parte_2+"</p>";
@@ -1407,12 +1407,12 @@ if(document.getElementById("title").innerHTML == "Lectie44"){
   continut.innerHTML += "<p class='p4'>"+lectie44.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie44.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie44.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie44.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie44.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie45"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie45.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie45.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie45.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie45.cat+"<br>"+lectie45.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie45.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie45.parte_2+"</p>";
@@ -1420,12 +1420,12 @@ if(document.getElementById("title").innerHTML == "Lectie45"){
   continut.innerHTML += "<p class='p4'>"+lectie45.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie45.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie45.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie45.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie45.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie46"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie46.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie46.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie46.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie46.cat+"<br>"+lectie46.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie46.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie46.parte_2+"</p>";
@@ -1433,12 +1433,12 @@ if(document.getElementById("title").innerHTML == "Lectie46"){
   continut.innerHTML += "<p class='p4'>"+lectie46.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie46.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie46.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie46.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie46.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie47"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie47.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie47.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie47.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie47.cat+"<br>"+lectie47.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie47.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie47.parte_2+"</p>";
@@ -1446,203 +1446,202 @@ if(document.getElementById("title").innerHTML == "Lectie47"){
   continut.innerHTML += "<p class='p4'>"+lectie47.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie47.parte_5+"</p>";
   continut.innerHTML += "<p class='p6'>"+lectie47.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie47.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie47.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie48"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie48.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie48.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie48.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie48.cat+"<br>"+lectie48.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie48.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie48.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie48.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie48.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie48.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie48.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie48.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie48.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie48.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie49"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie49.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie49.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie49.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie49.cat+"<br>"+lectie49.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie49.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie49.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie49.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie49.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie49.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie49.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie49.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie49.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie49.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie50"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie50.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie50.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie50.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie50.cat+"<br>"+lectie50.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie50.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie50.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie50.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie50.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie50.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie50.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie50.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie50.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie50.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie51"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie51.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie51.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie51.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie51.cat+"<br>"+lectie51.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie51.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie51.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie51.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie51.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie51.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie51.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie51.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie51.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie51.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie52"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie52.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie52.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie52.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie52.cat+"<br>"+lectie52.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie52.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie52.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie52.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie52.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie52.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie52.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie52.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie52.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie52.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie52.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie53"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie53.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie53.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie53.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie53.cat+"<br>"+lectie53.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie53.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie53.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie53.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie53.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie53.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie53.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie53.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie53.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie53.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie54"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie54.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie54.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie54.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie54.cat+"<br>"+lectie54.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie54.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie54.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie54.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie54.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie54.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie54.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie54.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie54.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie54.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie55"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie55.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie55.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie55.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie55.cat+"<br>"+lectie55.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie55.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie55.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie55.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie55.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie55.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie55.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie55.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie55.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie55.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie56"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie56.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie56.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie56.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie56.cat+"<br>"+lectie56.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie56.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie56.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie56.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie56.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie56.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie56.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie56.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie56.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie56.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie57"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie57.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie57.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie57.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie57.cat+"<br>"+lectie57.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie57.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie57.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie57.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie57.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie57.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie57.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie57.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie57.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie57.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie58"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie58.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie58.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie58.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie58.cat+"<br>"+lectie58.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie58.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie58.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie58.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie58.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie58.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie58.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie58.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie58.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie58.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie59"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie59.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie59.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie59.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie59.cat+"<br>"+lectie59.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie59.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie59.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie59.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie59.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie59.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie59.parte_6+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie59.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie59.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie59.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie59.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie60"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie60.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie60.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie60.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie60.cat+"<br>"+lectie60.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie60.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+lectie60.parte_2+"</p>";
   continut.innerHTML += "<p class='p3'>"+lectie60.parte_3+"</p>";
   continut.innerHTML += "<p class='p4'>"+lectie60.parte_4+"</p>";
   continut.innerHTML += "<p class='p5'>"+lectie60.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie60.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie60.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie60.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie60.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie61"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie61.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie61.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie61.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie61.cat+"<br>"+lectie61.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie61.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie61.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie61.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie61.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie61.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie61.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie61.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie61.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie61.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie61.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie61.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie61.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie61.parte_7+"</p>";
 }
 if(document.getElementById("title").innerHTML == "Lectie62"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+lectie62.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+lectie62.autor+"</p></p>";
+  continut.innerHTML += "<p class='divAutor'><p class='autor'> "+lectie62.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+lectie62.cat+"<br>"+lectie62.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+lectie62.parte_1+"</p>";
-  continut.innerHTML += "<p class='p2'>"+lectie62.parte_2+"</p>";
-  continut.innerHTML += "<p class='p3'>"+lectie62.parte_3+"</p>";
-  continut.innerHTML += "<p class='p4'>"+lectie62.parte_4+"</p>";
-  continut.innerHTML += "<p class='p5'>"+lectie62.parte_5+"</p>";
-  continut.innerHTML += "<p class='p6'>"+lectie62.parte_6+"</p>";
-  continut.innerHTML += "<p class='p7'>"+lectie62.parte_7+"</p>";
+  // continut.innerHTML += "<p class='p2'>"+lectie62.parte_2+"</p>";
+  // continut.innerHTML += "<p class='p3'>"+lectie62.parte_3+"</p>";
+  // continut.innerHTML += "<p class='p4'>"+lectie62.parte_4+"</p>";
+  // continut.innerHTML += "<p class='p5'>"+lectie62.parte_5+"</p>";
+  // continut.innerHTML += "<p class='p6'>"+lectie62.parte_6+"</p>";
+  // continut.innerHTML += "<p class='p7'>"+lectie62.parte_7+"</p>";
 }
 
 
