@@ -773,7 +773,7 @@ if(document.getElementById("title").innerHTML == "NoapteFurtunoasa"){
 if(document.getElementById("title").innerHTML == "Junimea"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+junimea.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+junimea.autor+"</p></p>";
+  // continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+junimea.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+junimea.cat+"<br>"+junimea.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+junimea.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+junimea.parte_2+"</p>";
@@ -787,7 +787,7 @@ if(document.getElementById("title").innerHTML == "Junimea"){
 if(document.getElementById("title").innerHTML == "Dacia"){
   var continut = document.getElementById("continut");
   continut.innerHTML += "<h1 class='aliniere'>"+dacia.nume+"</h1>";
-  continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+dacia.autor+"</p></p>";
+  // continut.innerHTML += "<p class='divAutor'><p class='autor'>de "+dacia.autor+"</p></p>";
   continut.innerHTML += "<span class='categorisire_opera'>"+dacia.cat+"<br>"+dacia.an+"</span>";
   continut.innerHTML += "<p class='p1'>"+dacia.parte_1+"</p>";
   continut.innerHTML += "<p class='p2'>"+dacia.parte_2+"</p>";
