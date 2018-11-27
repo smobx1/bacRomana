@@ -58,7 +58,7 @@
         // request an interstitial
         
         // aman 1 secunda reclama
-	    setTimeout(doSomething, 550);
+	    // setTimeout(doSomething, 550);
 
 		function doSomething() {
 		   //do whatever you want here
