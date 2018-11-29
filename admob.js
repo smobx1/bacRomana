@@ -52,7 +52,7 @@
       document.removeEventListener('deviceready', onDeviceReady, false);
       initAds();
 
-      display a banner at startup
+      //display a banner at startup
       admob.createBannerView();
         
         // request an interstitial
