@@ -14,6 +14,9 @@
 
     <!-- <gap:plugin name="phonegap-admob" source="npm"/> -->
     
+    <plugin name="cordova-admob-pro" source="npm">
+    <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
+    </plugin>
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
