@@ -2,8 +2,8 @@
 	      if (admob) {
 	        var adPublisherIds = {
 	          ios : {
-	            banner : "ca-app-pub-2789022727093400/1079470197"
-	            // interstitial : "ca-app-pub-2789022727093400/9133177509"
+	            banner : "ca-app-pub-2789022727093400/1079470197",
+	            interstitial : "ca-app-pub-2789022727093400/9133177509"
 	          },
 	          android : {
 	            banner : "ca-app-pub-2789022727093400/7457176289"
