@@ -1,13 +1,13 @@
-function initAds() {
+    function initAds() {
       if (admob) {
         var adPublisherIds = {
           ios : {
             banner : "ca-app-pub-2789022727093400/1079470197",
-            interstitial : "ca-app-pub-2789022727093400/9133177509"
+	        interstitial : "ca-app-pub-2789022727093400/9133177509"
           },
           android : {
             banner : "ca-app-pub-2789022727093400/7457176289",
-            interstitial : "ca-app-pub-2789022727093400/5800437153"
+	        interstitial : "ca-app-pub-2789022727093400/5800437153"
           }
         };
     	  
@@ -15,10 +15,7 @@ function initAds() {
             
         admob.setOptions({
           publisherId: "pub-2789022727093400",
-          interstitialAdId: admobid.interstitial,
-          tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
-          tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
-          tappxShare:       0.5
+          interstitialAdId: admobid.interstitial
         });
 
         registerAdEvents();
@@ -55,7 +52,7 @@ function initAds() {
       admob.createBannerView();
         
       // request an interstitial
-      admob.requestInterstitialAd();
+      // admob.requestInterstitialAd();
     }
     
     document.addEventListener("deviceready", onDeviceReady, false);
