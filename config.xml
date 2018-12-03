@@ -13,8 +13,9 @@
     
 
     <!-- <gap:plugin name="phonegap-admob" source="npm"/> -->
-    <gap:plugin name="cordova-plugin-admob" source="npm" />
- 
+    <preference name="android-build-tool" value="gradle" /> 
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+  
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
