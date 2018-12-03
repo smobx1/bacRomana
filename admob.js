@@ -2,12 +2,12 @@
 	      if (admob) {
 	        var adPublisherIds = {
 	          ios : {
-	            banner : "ca-app-pub-2789022727093400/1079470197",
-	            interstitial : "ca-app-pub-2789022727093400/9133177509"
+	            banner : "ca-app-pub-2789022727093400/1079470197"
+	            // interstitial : "ca-app-pub-2789022727093400/9133177509"
 	          },
 	          android : {
-	            banner : "ca-app-pub-2789022727093400/7457176289",
-	            interstitial : "ca-app-pub-2789022727093400/5800437153"
+	            banner : "ca-app-pub-2789022727093400/7457176289"
+	            // interstitial : "ca-app-pub-2789022727093400/5800437153"
 	          }
 	        };
 	    	  
@@ -15,9 +15,9 @@
 	            
 	        admob.setOptions({
 	          publisherId: "pub-2789022727093400",
-	          interstitialAdId: admobid.interstitial,
+	          // interstitialAdId: admobid.interstitial,
 	          autoShowBanner:       true,
-	          isTesting: true, 
+	          // isTesting: true, 
 	          // tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
 	          // tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
 	          tappxShare:       0.5
