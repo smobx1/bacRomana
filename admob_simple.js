@@ -15,8 +15,8 @@
             
         admob.setOptions({
           publisherId:      admobid.banner,
-          interstitialAdId: admobid.interstitial,
-          isTesting: true
+          interstitialAdId: admobid.interstitial
+          // isTesting: true
         });
 
         registerAdEvents();
