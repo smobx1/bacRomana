@@ -14,13 +14,13 @@
 	        var admobid = (/(android)/i.test(navigator.userAgent)) ? adPublisherIds.android : adPublisherIds.ios;
 	            
 	        admob.setOptions({
-	          publisherId: "pub-2789022727093400",
+	          publisherId: "pub-2789022727093400"
 	          // interstitialAdId: admobid.interstitial,
-	          autoShowBanner:       true,
+	          // autoShowBanner:       true,
 	          // isTesting: true, 
 	          // tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
 	          // tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
-	          tappxShare:       0.5
+	          // tappxShare:       0.5
 	        });
 
 	        registerAdEvents();
