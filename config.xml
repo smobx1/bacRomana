@@ -12,7 +12,7 @@
 
     
     <!-- admob plugin -->
-    <gap:plugin name="phonegap-admob" source="npm"/>
+    <!-- <gap:plugin name="phonegap-admob" source="npm"/> -->
     <!-- admob plugin -->
 
     <preference name="permissions" value="none"/>
