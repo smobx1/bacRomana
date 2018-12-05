@@ -11,8 +11,8 @@ function initializeStore() {
     // We register a dummy product. It's ok, it shouldn't
     // prevent the store "ready" event from firing.
     store.register({
-        id:    "1445645452",
-        alias: "BacCuBrio",
+        id:    "BacCuBrio",
+        alias: "Bac cu Brio",
         type:  store.NON_CONSUMABLE
     });
 
