@@ -3,7 +3,7 @@
 document.addEventListener('deviceready', initializeStore, false);
 
 function initializeStore() {
-
+    alert();
     // Let's set a pretty high verbosity level, so that we see a lot of stuff
     // in the console (reassuring us that something is happening).
     store.verbosity = store.INFO;
@@ -12,7 +12,7 @@ function initializeStore() {
     // prevent the store "ready" event from firing.
     store.register({
         id:    "BacCuBrio",
-        alias: "Bac cu Brio",
+        alias: "BacCuBrio",
         type:  store.NON_CONSUMABLE
     });
 
