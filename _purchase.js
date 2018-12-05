@@ -1,6 +1,6 @@
 // We must wait for the "deviceready" event to fire
 // before we can use the store object.
-document.addEventListener('deviceready', initializeStore, false);
+// document.addEventListener('deviceready', initializeStore, false);
 
 function initializeStore() {
     alert();
