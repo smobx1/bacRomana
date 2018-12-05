@@ -1,20 +1,126 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.your.app.package.name" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>InAppPurchases</name>
-  <description>
-      A Sample app to demonstrate in app purchases using the cordova-plugin-inapppurchase plugin
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "romana.bacromana.example"
+        versionCode = "75"
+        android-versionCode = "104297" 
+        version     = "7.5" >
+
+
+    <!-- versionCode is optional and Android only -->
+    <preference name="DisallowOverscroll" value="true" />
+
+    
+    <!-- admob plugin -->
+    <!-- <gap:plugin name="phonegap-admob" source="npm"/> -->
+    <!-- admob plugin -->
+
+    <!-- in app purchase --> 
+    <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" />
+
+    <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
+       <param name="BILLING_KEY" value="MIIB...."/>
+    </gap:plugin>
+
+    <preference name="permissions" value="none"/>
+    <preference name="android-build-tool" value="gradle" />
+    
+    <!-- NOU -->
+    <preference name='phonegap-version' value='cli-6.5.0' />
+    <preference name='pgb-builder-version' value='2' />
+    <!-- test -->
+    <preference name="android-targetSdkVersion" value="26"/>
+
+    <!-- END-NOU -->
+
+    <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" /> -->
+
+    <framework src="com.google.android.gms:play-services-ads:+" />
+
+    <!-- end plugin -->
+
+
+
+    <name>Bac cu Brio</name>
+
+    <description>
+        An application that helps students learn for the Romanian Baccalaureate.
     </description>
-  <author href="https://github.com/AlexDisler/cordova-plugin-inapppurchase">
-    cordova-plugin-inapppurchase
-  </author>
-  <content src="index.html"/>
-  <access origin="*"/>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="android-minSdkVersion" value="16"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        DesignRoom
+    </author>
+    
+    
+    <!-- START SPLASH -->
+    
+    <!-- NOU -->
+    <!-- IOS sau UNIVERSAL -->
+    <splash src="img/Default@2x~universal~anyany.png" />
+    <!-- END-NOU -->
+
+
+
+    <!-- ANDROID -->
+    <!-- <splash src="img/splashScreen.png" platform="android" qualifier="ldpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="mdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="hdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="xhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="fr-xhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="port-xxhdpi" />
+    <splash src="img/splashScreen.png" platform="android" qualifier="land-xxhdpi" /> -->
+    
+    <!-- END SPLASH -->
+
+
+    <icon src="img/iconRomana.png" platform="android" qualifier="ldpi" />
+    <icon src="img/iconRomana.png" platform="android" qualifier="mdpi" />
+    <icon src="img/iconRomana.png" platform="android" qualifier="hdpi" />
+    <icon src="img/iconRomana.png" platform="android" qualifier="xhdpi" />
+    <icon src="img/iconRomana.png" platform="android" qualifier="xxhdpi" />
+    <icon src="img/iconRomana.png" platform="android" qualifier="fr-xxhdpi" />
+
+    <!-- iPhone 6 / 6+ -->
+    <icon src="img/iconRomana.png" platform="ios" width="180" height="180" />
+
+    <!-- iPhone / iPod Touch  -->
+    <icon src="img/iconRomana.png" platform="ios" width="60" height="60" />
+    <icon src="img/icons/Icon-72.png" platform="ios" width="72" height="72" />
+
+
+    <icon src="img/icons/Icon-60@2x.png" platform="ios" width="120" height="120" />
+
+    <!-- iPad -->
+    <icon src="img/icons/Icon-76px.png" platform="ios" width="76" height="76" />
+    <icon src="img/icons/Icon-76@2x.png" platform="ios" width="152" height="152" />
+    <icon src="img/icons/Icon-76@3x.png" platform="ios" width="167" height="167" />
+
+    <!-- Settings Icon -->
+    <icon src="img/iconRomana.png" platform="ios" width="29" height="29" />
+    <icon src="img/iconRomana.png" platform="ios" width="58" height="58" />
+
+    <!-- Spotlight Icon -->
+    <icon src="img/icons/Icon-40px.png" platform="ios" width="40" height="40" />
+    <icon src="img/iconRomana.png" platform="ios" width="80" height="80" />
+
+    <!-- iPhone / iPod Touch -->
+    <icon src="img/icons/Icon.png" platform="ios" width="57" height="57" />
+    <icon src="img/iconRomana.png" platform="ios" width="114" height="114" />
+
+    <!-- iPad -->
+    <icon src="img/icons/Icon-72.png" platform="ios" width="72" height="72" />
+    <icon src="img/iconRomana.png" platform="ios" width="144" height="144" />
+
+    <!-- iPhone Spotlight and Settings Icon -->
+    <icon src="img/iconRomana.png" platform="ios" width="29" height="29" />
+    <icon src="img/iconRomana.png" platform="ios" width="58" height="58" />
+    <icon src="img/icons/Icon-40px.png" platform="ios" width="40" height="40" />
+
+    <!-- iPad Spotlight and Settings Icon -->
+    <icon src="img/iconRomana.png" platform="ios" width="50" height="50" />
+    <icon src="img/iconRomana.png" platform="ios" width="100" height="100" />
+
+
 </widget>
+
+
