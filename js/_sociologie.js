@@ -357,4 +357,6 @@ $('p').wrapInTag({"words" : [
             "Volumul III "
 ]});
 
-document.getElementById("poweredBy").innerHTML = "Powered by<br>DesignRoom.ro";
+document.getElementById("poweredBy").innerHTML = "<p style='font-size:20px;'>Ai găsit ceva greșit in aceasta lectie?</p>";
+document.getElementById("poweredBy").innerHTML += "Click si send sau explică-ne problema.<br><a href='mailto:contact@designroom.ro?Subject=Buna ziua,%20am gasit o problema cu "+nr_lectie+"! Materia: Sociologie'>"+"<img src='../img/mail_icon.png' style='height:80px;'></a>";
+document.getElementById("poweredBy").innerHTML += "<br><br>Powered by<br>DesignRoom.ro";

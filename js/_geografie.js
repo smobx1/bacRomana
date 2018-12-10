@@ -1718,4 +1718,19 @@ $('p').wrapInTag({"words" : [
             "Volumul III "
 ]});
 
-document.getElementById("poweredBy").innerHTML = "Powered by<br>DesignRoom.ro";
+var nr_lectie = "";
+nr_lectie = document.getElementById("title").innerHTML;
+// alert(nr_lectie);
+
+// var nume_lectie = "";
+// nume_lectie = nr_lectie.nume;
+// alert(nume_lectie);
+
+// var nume_numar = nume_lectie+nr_lectie;
+// alert(nume_numar);
+// alert(nume_lectie);
+
+
+document.getElementById("poweredBy").innerHTML = "<p style='font-size:20px;'>Ai găsit ceva greșit in aceasta lectie?</p>";
+document.getElementById("poweredBy").innerHTML += "Click si send sau explică-ne problema.<br><a href='mailto:contact@designroom.ro?Subject=Buna ziua,%20am gasit o problema cu "+nr_lectie+"! Materia: Geografie'>"+"<img src='../img/mail_icon.png' style='height:80px;'></a>";
+document.getElementById("poweredBy").innerHTML += "<br><br>Powered by<br>DesignRoom.ro";

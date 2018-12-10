@@ -2,9 +2,9 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "romana.bacromana.example"
-        versionCode = "75"
-        android-versionCode = "104297" 
-        version     = "7.5" >
+        versionCode = "76"
+        android-versionCode = "104298" 
+        version     = "7.6" >
 
 
     <!-- versionCode is optional and Android only -->
@@ -18,9 +18,9 @@
     <!-- in app purchase --> 
     <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" />
 
-    <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
+   <!--  <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
        <param name="BILLING_KEY" value="MIIB...."/>
-    </gap:plugin>
+    </gap:plugin> -->
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
