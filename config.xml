@@ -16,7 +16,7 @@
     <!-- admob plugin -->
 
     <!-- in app purchase --> 
-    <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" />
+    <!-- <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" /> -->
 
    <!--  <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
        <param name="BILLING_KEY" value="MIIB...."/>
