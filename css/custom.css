@@ -335,6 +335,15 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 	.navbar-fixed-top, .navbar-fixed-bottom {
 	position: fixed;
 	}
+
+}
+
+@media (min-width: 768px) {
+	ul li{
+		display:block !important;
+		height: 100%;
+		padding:7px 20px;
+	}
 }
 @media (max-width: 768px) {
 	.navbar.navbar-fixed-top{
@@ -406,10 +415,11 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 /*
 NO MORE TABLES!! ;)
 */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
 	.hp-table table, .hp-table thead, .hp-table .hp-table tbody, .hp-table th, .hp-table td, .hp-table tr {
 		display: block;
+
 	}
 	.hp-table thead tr {
 		display: none;
@@ -442,6 +452,7 @@ NO MORE TABLES!! ;)
 	margin:0;
 	padding:0;
 	height:auto;
+
 }
 #lista li{
 	background-color: rgba(255,255,255,1);
@@ -449,6 +460,7 @@ NO MORE TABLES!! ;)
 	height: 100%;
 	padding:7px 20px;
 	border-top: 1px solid #ddd;
+
 }
 #lista li:active{
 	background-color:rgba(255, 166, 85, 1);
