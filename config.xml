@@ -7,7 +7,7 @@
         version     = "7.8" >
 
 
-    <!-- versionCode is optional and Android only -->
+    <!-- versionCode is optional and Android onl y -->
     <preference name="DisallowOverscroll" value="true" />
 
     
