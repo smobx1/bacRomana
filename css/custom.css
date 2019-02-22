@@ -680,3 +680,10 @@ body{
 	z-index: 9999999999;
 	display: none;
 }
+.audio_div{
+	display:block;
+	margin:auto;
+}
+.titlu_audio{
+	text-align:center;
+}
