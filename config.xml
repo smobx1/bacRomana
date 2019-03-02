@@ -18,11 +18,11 @@
     <!-- in app purchase --> 
     <!-- <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0" /> -->
 
-   <!--  <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
+    <gap:plugin name="cc.fovea.cordova.purchase" source="npm" version="6.0.0">
        <param name="BILLING_KEY" value="MIIB...."/>
-    </gap:plugin> -->
+    </gap:plugin>
 
-    <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+    
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
