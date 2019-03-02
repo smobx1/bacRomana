@@ -22,6 +22,8 @@
        <param name="BILLING_KEY" value="MIIB...."/>
     </gap:plugin> -->
 
+    <uses-permission android:name="com.android.vending.BILLING" />
+    
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" />
     
